@@ -2,7 +2,7 @@
 layout: post
 title:  "Fani Stardew Valley są zachwyceni po tym, jak twórca ujawnił, co spotka ich ulubioną grę"
 date:   2023-07-18 10:58:00 +0200
-categories:
+tags:
     - gry 
     - patche i akutalizacje
     - symulatory rolnicze
