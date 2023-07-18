@@ -35,7 +35,7 @@ którym napisał jedynie „Iridium Scythe”. Teraz twórca okazał się mniej
 małomówny i podzielił się informacjami na temat tego, co zostanie
 zaimplementowane w aktualizacji 1.6.
 
-![Concerned Ape na Twitterze](assets/twitter-post-2023-07-18-concerned-ape.webp)
+![Concerned Ape na Twitterze](/assets/twitter-post-2023-07-18-concerned-ape.webp)
 
 Do gry trafi **nowy festiwal, przedmioty, dialogi oraz bliżej nieokreślone
 sekrety**. Na koniec deweloper postawił trzy znaki zapytania, które mogą
