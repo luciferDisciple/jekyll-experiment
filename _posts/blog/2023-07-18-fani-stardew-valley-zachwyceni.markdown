@@ -16,8 +16,6 @@ tags:
     - Switch
 ---
 
-# Witamy w OSK Lidka
-
 Stardew Valley otrzyma sporo nowej zawartości. ConcernedApe poinformował o tym,
 co trafi do gry w aktualizacji 1.6.
 
