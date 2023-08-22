@@ -17,3 +17,8 @@ layout: home
   }
 </script>
 
+# Zapraszamy na kursy!
+
+Najlepsza szkoła jazdy po tej stronie równika 😀
+
+![Instruktorka przy dwóch samochodach szkoleniowych](/assets/homepage-banner.jpg)
