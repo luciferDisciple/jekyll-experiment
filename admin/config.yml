@@ -94,3 +94,49 @@ collections:
             min: 0
             max: 500
             step: 10
+      - name: office_hours
+        label: Godziny otwarcia
+        file: _data/office_hours.yml
+        fields:
+          - name: monday_open
+            label: Poniedziałek (otwarcie)
+            required: false
+          - name: monday_close
+            label: Poniedziałek (zamknięcie)
+            required: false
+          - name: tuesday_open
+            label: Wtorek (otwarcie)
+            required: false
+          - name: tuesday_close
+            label: Wtorek (zamknięcie)
+            required: false
+          - name: wednesday_open
+            label: Środa (otwarcie)
+            required: false
+          - name: wednesday_close
+            label: Środa (zamknięcie)
+            required: false
+          - name: thursday_open
+            label: Czwartek (otwarcie)
+            required: false
+          - name: thursday_close
+            label: Czwartek (zamknięcie)
+            required: false
+          - name: friday_open
+            label: Piątek (otwarcie)
+            required: false
+          - name: friday_close
+            label: Piątek (zamknięcie)
+            required: false
+          - name: saturday_open
+            label: Sobota (otwarcie)
+            required: false
+          - name: saturday_close
+            label: Sobota (zamknięcie)
+            required: false
+          - name: sunday_open
+            label: Niedziela (otwarcie)
+            required: false
+          - name: sunday_close
+            label: Niedziela (zamknięcie)
+            required: false
