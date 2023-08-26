@@ -1,0 +1,8 @@
+prices:
+  regular_course: 3000
+  express_course: 3700
+  automatic_transmission_course: 3400
+  physical_examination: 200
+  extra_hour: 100
+  extra_hour_bulk: 950
+  car_rental: 200

@@ -14,13 +14,15 @@ egzaminem wewnętrznym (teoretycznym i praktycznym).
 
 Cennik usług ważny od 1 sierpnia 2023:
 
+{% assign prices = site.data.pricing.prices %}
+
 1. Kurs **podstawowy** na prawo jazdy kategorii B
     - 30 godzin szkolenia teoretycznego (1 godzina lekcyjna = 45 minut)
     - 30 godzin szkolenia praktycznego (1 godzina lekcyjna = 60 minut)
     - materiały szkoleniowe (książki, testy) – GRATIS
     - szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych
     - pierwszy egzamin wewnętrzny – w cenie kursu
-    - **cena: 3000 zł** (możliwe raty – patrz niżej)
+    - **cena: {{ prices.regular_course }} zł** (możliwe raty – patrz niżej)
 2. Kurs **ekspresowy** na prawo jazdy kategorii B
     - **codziennie jazdy** z instruktorem i szkolenie
     - 30 godzin szkolenia teoretycznego (1 godzina lekcyjna = 45 minut)
@@ -28,7 +30,7 @@ Cennik usług ważny od 1 sierpnia 2023:
     - materiały szkoleniowe (książki, testy, płyta CD) – GRATIS
     - szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych
     - pierwszy egzamin wewnętrzny – w cenie kursu
-    - **cena: 3700 zł** (możliwe raty – patrz niżej)
+    - **cena: {{ prices.express_course }} zł** (możliwe raty – patrz niżej)
 3. Kurs **podstawowy "automat"** na prawo jazdy kategorii B
     - zajęcia praktyczne w samochodzie z **automatyczną skrzynią biegów**
     - pierwszy **egzamin państwowy praktyczny samochodem Ośrodka Szkolenia**
@@ -38,15 +40,15 @@ Cennik usług ważny od 1 sierpnia 2023:
     - materiały szkoleniowe (książki, testy, płyta CD) – GRATIS
     - szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych
     - pierwszy egzamin wewnętrzny (teoretyczny i praktyczny) w cenie kursu
-    - **cena: 3400 zł** (możliwe raty – patrz niżej)
+    - **cena: {{ prices.automatic_transmission_course }} zł** (możliwe raty – patrz niżej)
 4. **Badanie lekarskie**
     - płatne w gabinecie lekarskim, nie zawiera się w cenie kursu
-    - **cena: 200 zł**
-5. **Dodatkowa godzina** szkolenia praktycznego - **100 zł**
-6. **Promocyjny** pakiet 10 jazd doszkalających -- **950 zł**
+    - **cena: {{ prices.physical_examination }} zł**
+5. **Dodatkowa godzina** szkolenia praktycznego - **{{ prices.extra_hour }} zł**
+6. **Promocyjny** pakiet 10 jazd doszkalających -- **{{ prices.extra_hour_bulk }} zł**
 7. Podstawienie samochodu na egzamin państwowy
     - samochód wyposażony zgodnie z wymogami WORD
-    - **cena: 200 zł**
+    - **cena: {{ prices.car_rental }} zł**
 
 # Płatność
 
