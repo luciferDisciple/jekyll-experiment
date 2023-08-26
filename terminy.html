@@ -5,7 +5,7 @@ permalink: /terminy/
 ---
 {% assign month_names = site.data.localization.pl_PL.month_names %}
 <ol>
-    {% for driving_course in site.data.course_calendar %}
+    {% for driving_course in site.data.course_calendar.courses %}
         <li>
             {{ driving_course.name }}
             <ul>

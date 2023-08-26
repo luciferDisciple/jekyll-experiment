@@ -13,3 +13,30 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: pages
+    label: Strony
+    files:
+      - name: course_calendar
+        label: Terminy
+        file: _data/course_calendar.yml
+        fields:
+          - widget: list
+            name: courses
+            label: Kursy
+            label_singular: Kurs
+            fields:
+              - name: name
+                label: Nazwa
+                widget: string
+              - name: introductory_class
+                label: Spotkanie organizacyjne
+                widget: datetime
+                time_format: false
+              - name: doctor_appointment
+                label: Badanie lekarskie
+                widget: datetime
+                time_format: false
+              - name: course_start
+                label: Rozpoczęcie szkolenia
+                widget: datetime
+                time_format: false
