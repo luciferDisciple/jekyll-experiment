@@ -14,7 +14,7 @@ egzaminem wewnętrznym (teoretycznym i praktycznym).
 
 Cennik usług ważny od 1 sierpnia 2023:
 
-{% assign prices = site.data.pricing.prices %}
+{% assign prices = site.data.pricing %}
 
 1. Kurs **podstawowy** na prawo jazdy kategorii B
     - 30 godzin szkolenia teoretycznego (1 godzina lekcyjna = 45 minut)
