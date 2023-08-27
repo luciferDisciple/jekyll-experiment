@@ -96,7 +96,7 @@ collections:
             step: 10
       - name: office_hours
         label: Godziny otwarcia
-        file: _data/office_hours.yml
+        file: _data/office_hours.json
         fields:
           - name: monday_open
             label: Poniedziałek (otwarcie)
