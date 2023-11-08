@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="416.60001" height="416.60001" viewBox="0 0 416.60001 416.60001" version="1.1" id="svg28" sodipodi:docname="right-arrow-solid-grey.svg" inkscape:version="1.3 (0e150ed6c4, 2023-07-21)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview28" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.59326259" inkscape:cx="182.88697" inkscape:cy="174.459" inkscape:window-width="1920" inkscape:window-height="1017" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="g28"/>
+  <defs id="defs15">
+    <clipPath id="g">
+      <path d="M 0,0 H 500 V 500 H 0 Z" id="path1"/>
+    </clipPath>
+    <clipPath id="l">
+      <path d="M 0,0 H 500 V 500 H 0 Z" id="path2"/>
+    </clipPath>
+    <clipPath id="j">
+      <path d="M 0,0 H 500 V 500 H 0 Z" id="path3"/>
+    </clipPath>
+    <clipPath id="h">
+      <path d="M 0,0 H 500 V 500 H 0 Z" id="path4"/>
+    </clipPath>
+    <filter id="a" width="1" height="1" x="0" y="0" filterUnits="objectBoundingBox">
+      <feComponentTransfer in="SourceGraphic" id="feComponentTransfer4">
+        <feFuncA tableValues="1.0 0.0" type="table" id="feFuncA4"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="c" width="1" height="1" x="0" y="0" filterUnits="objectBoundingBox">
+      <feComponentTransfer in="SourceGraphic" id="feComponentTransfer5">
+        <feFuncA tableValues="1.0 0.0" type="table" id="feFuncA5"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="e" width="1" height="1" x="0" y="0" filterUnits="objectBoundingBox">
+      <feComponentTransfer in="SourceGraphic" id="feComponentTransfer6">
+        <feFuncA tableValues="1.0 0.0" type="table" id="feFuncA6"/>
+      </feComponentTransfer>
+    </filter>
+    <mask id="m" mask-type="alpha">
+      <g filter="url(#a)" id="g6">
+        <path fill="#ffffff" d="M 0,0 H 500 V 500 H 0 Z" opacity="0" id="path6"/>
+        <use xlink:href="#b" id="use6"/>
+      </g>
+    </mask>
+    <mask id="k" mask-type="alpha">
+      <g filter="url(#c)" id="g7">
+        <path fill="#ffffff" d="M 0,0 H 500 V 500 H 0 Z" opacity="0" id="path7"/>
+        <use xlink:href="#d" id="use7"/>
+      </g>
+    </mask>
+    <mask id="i" mask-type="alpha">
+      <g filter="url(#e)" id="g8">
+        <path fill="#ffffff" d="M 0,0 H 500 V 500 H 0 Z" opacity="0" id="path8"/>
+        <use xlink:href="#f" id="use8"/>
+      </g>
+    </mask>
+    <g id="b" fill-opacity="0" stroke-linecap="round" stroke-linejoin="round" class="primary design" style="display:none">
+      <path class="primary" id="path9" d=""/>
+      <path class="primary" id="path10" d=""/>
+      <path class="primary" id="path11" d=""/>
+    </g>
+    <g id="d" class="primary design" style="display:none">
+      <path fill-opacity="0" stroke-linecap="round" stroke-linejoin="round" class="primary" id="path12" d=""/>
+    </g>
+    <g id="f" fill-opacity="0" stroke-linecap="round" stroke-linejoin="round" class="primary design" style="display:none">
+      <path class="primary" id="path13" d=""/>
+      <path class="primary" id="path14" d=""/>
+      <path class="primary" id="path15" d=""/>
+    </g>
+  </defs>
+  <g clip-path="url(#g)" id="g28" transform="rotate(-90,208.3,250)" style="fill:#b6b6b6;fill-opacity:1">
+    <rect style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke markers fill" id="rect28" width="259.58151" height="259.58151" x="82.594116" y="77.537338" transform="rotate(90,208.3,250)"/>
+    <g clip-path="url(#h)" style="display:none;fill:#b6b6b6;fill-opacity:1" id="g20">
+      <g class="primary design" mask="url(#i)" style="display:none;fill:#b6b6b6;fill-opacity:1" id="g17">
+        <path class="primary" id="path16" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+        <path fill="none" class="primary" id="path17" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+      </g>
+      <g class="primary design" style="display:none;fill:#b6b6b6;fill-opacity:1" id="g18">
+        <path class="primary" id="path18" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+      </g>
+      <g class="primary design" style="display:none;fill:#b6b6b6;fill-opacity:1" id="g19">
+        <path class="primary" id="path19" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+      </g>
+    </g>
+    <g clip-path="url(#j)" style="display:block;fill:#b6b6b6;fill-opacity:1" id="g24">
+      <g class="primary design" mask="url(#k)" style="display:none;fill:#b6b6b6;fill-opacity:1" id="g21">
+        <path class="primary" id="path20" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+        <path fill="none" class="primary" id="path21" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+      </g>
+      <g class="primary design" style="display:block;fill:#b6b6b6;fill-opacity:1" id="g22">
+        <path fill="#121330" d="M 250,41.7 C 135.018,41.7 41.7,135.018 41.7,250 41.7,364.982 135.018,458.3 250,458.3 364.982,458.3 458.3,364.982 458.3,250 458.3,135.018 364.982,41.7 250,41.7 Z m 98.11,190.178 -83.32,83.32 c -4.167,4.166 -9.374,6.249 -14.79,6.249 -5.416,0 -10.623,-2.083 -14.79,-6.25 l -83.32,-83.32 c -8.123,-8.123 -8.123,-21.246 0,-29.37 8.124,-8.123 21.456,-8.123 29.58,0 l 68.53,68.532 68.53,-68.53 c 8.124,-8.124 21.456,-8.124 29.58,0 8.123,8.123 8.123,21.246 0,29.37 z" class="primary" id="path22" style="fill:#b6b6b6;fill-opacity:1"/>
+      </g>
+      <g class="primary design" style="display:none;fill:#b6b6b6;fill-opacity:1" id="g23">
+        <path class="primary" id="path23" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+      </g>
+    </g>
+    <g clip-path="url(#l)" style="display:none;fill:#b6b6b6;fill-opacity:1" id="g27">
+      <g class="primary design" mask="url(#m)" style="display:none;fill:#b6b6b6;fill-opacity:1" id="g25">
+        <path class="primary" id="path24" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+        <path fill="none" class="primary" id="path25" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+      </g>
+      <g class="primary design" style="display:none;fill:#b6b6b6;fill-opacity:1" id="g26">
+        <path class="primary" id="path26" d="" style="fill:#b6b6b6;fill-opacity:1"/>
+      </g>
+    </g>
+  </g>
+</svg>
