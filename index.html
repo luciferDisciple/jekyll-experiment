@@ -235,111 +235,36 @@
                         data-nav-spacing="3" data-duration="500" data-infinite="true" id="galeria" role="region"
                         aria-label="carousel">
                         <div class="w-slider-mask" id="w-slider-mask-0">
-                            <div class="w-slide" aria-label="1 of 4" role="group"
+                            {% assign identifiers_pool = site.data.base64_identifiers_pool.identifiers %}
+                            {% for image in site.data.photo_gallery.photos %}
+                            <div class="w-slide" aria-label="1 of {{ forloop.length }}" role="group"
                                 style="transform: translateX(-542px); opacity: 1; transition: transform 500ms ease 0s;"
                                 aria-hidden="true"><a href="#" class="slider-lightbox-link w-inline-block w-lightbox"
                                     aria-label="open lightbox" aria-haspopup="dialog" tabindex="-1"
                                     aria-hidden="true"><img
                                         sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, 97vw"
-                                        srcset="assets/gallery-auto-transmission-car-p-500.jpg 500w, assets/gallery-auto-transmission-car-p-800.jpg 800w, assets/gallery-auto-transmission-car-p-1080.jpg 1080w, assets/gallery-auto-transmission-car-p-1600.jpg 1600w, assets/gallery-auto-transmission-car-p-2000.jpg 2000w"
-                                        alt="Jeden z samochodów ośrodka: Toyota Yaris z automatyczną skrzynią biegów"
-                                        src="assets/gallery-auto-transmission-car.jpg"
+                                        alt="{{ image.alt_text }}"
+                                        src="assets/uploads/{{ image.filename }}"
                                         loading="lazy" class="gallery-image-thumbnail" aria-hidden="true">
                                     <script type="application/json" class="w-json" aria-hidden="true">{
-  "items": [
-    {
-      "_id": "65269718031750a0370dcd56",
-      "origFileName": "gallery-auto-transmission-car.jpg",
-      "fileName": "gallery-auto-transmission-car.jpg",
-      "fileSize": 1130359,
-      "height": 923,
-      "url": "assets/gallery-auto-transmission-car.jpg",
-      "width": 2050,
-      "type": "image"
-    }
-  ],
-  "group": "main-gallery"
-}</script>
+                                      "items": [
+                                        {
+                                          "_id": "{{ identifiers_pool[forloop.index0] }}",
+                                          "origFileName": "gallery-auto-transmission-car.jpg",
+                                          "fileName": "gallery-auto-transmission-car.jpg",
+                                          "fileSize": 1130359,
+                                          "height": 923,
+                                          "url": "assets/gallery-auto-transmission-car.jpg",
+                                          "width": 2050,
+                                          "type": "image"
+                                        }
+                                      ],
+                                      "group": "main-gallery"
+                                    }</script>
                                 </a></div>
-                            <div class="w-slide" aria-label="2 of 4" role="group"
-                                style="transform: translateX(-542px); opacity: 1; transition: transform 500ms ease 0s;">
-                                <a href="#" class="slider-lightbox-link w-inline-block w-lightbox"
-                                    aria-label="open lightbox" aria-haspopup="dialog"><img
-                                        sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, 97vw"
-                                        srcset="assets/gallery-three-cars-other-side-p-500.jpg 500w, assets/gallery-three-cars-other-side-p-800.jpg 800w, assets/gallery-three-cars-other-side-p-1080.jpg 1080w"
-                                        alt="Część z samochodów ośrodka"
-                                        src="assets/gallery-three-cars-other-side.jpg"
-                                        loading="lazy" class="gallery-image-thumbnail">
-                                    <script type="application/json" class="w-json">{
-  "items": [
-    {
-      "_id": "6526971873f87473b7977679",
-      "origFileName": "gallery-three-cars-other-side.jpg",
-      "fileName": "gallery-three-cars-other-side.jpg",
-      "fileSize": 1145050,
-      "height": 945,
-      "url": "assets/gallery-three-cars-other-side.jpg",
-      "width": 2098,
-      "type": "image"
-    }
-  ],
-  "group": "main-gallery"
-}</script>
-                                </a></div>
-                            <aside class="w-slide" aria-label="3 of 4" role="group"
-                                style="transform: translateX(-542px); opacity: 1; transition: transform 500ms ease 0s;"
-                                aria-hidden="true"><a href="#" class="slider-lightbox-link w-inline-block w-lightbox"
-                                    aria-label="open lightbox" aria-haspopup="dialog" tabindex="-1"
-                                    aria-hidden="true"><img
-                                        sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, 97vw"
-                                        srcset="assets/gallery-classroom-1-p-500.jpg 500w, assets/gallery-classroom-1-p-800.jpg 800w, assets/gallery-classroom-1-p-1080.jpg 1080w"
-                                        alt="Sala na której prowadzimy wykłady"
-                                        src="assets/gallery-classroom-1.jpg"
-                                        loading="lazy" class="gallery-image-thumbnail" aria-hidden="true">
-                                    <script type="application/json" class="w-json" aria-hidden="true">{
-  "items": [
-    {
-      "_id": "652697178acab2093880682c",
-      "origFileName": "gallery-classroom-1.jpg",
-      "fileName": "gallery-classroom-1.jpg",
-      "fileSize": 1135699,
-      "height": 1098,
-      "url": "assets/gallery-classroom-1.jpg",
-      "width": 2437,
-      "type": "image"
-    }
-  ],
-  "group": "main-gallery"
-}</script>
-                                </a></aside>
-                            <div class="w-slide" aria-label="4 of 4" role="group"
-                                style="transform: translateX(-542px); opacity: 1; transition: transform 500ms ease 0s;"
-                                aria-hidden="true"><a href="#" class="slider-lightbox-link w-inline-block w-lightbox"
-                                    aria-label="open lightbox" aria-haspopup="dialog" tabindex="-1"
-                                    aria-hidden="true"><img
-                                        src="assets/gallery-classroom-2.jpg"
-                                        loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, 97vw"
-                                        srcset="assets/gallery-classroom-2-p-500.jpg 500w, assets/gallery-classroom-2-p-800.jpg 800w, assets/gallery-classroom-2-p-1080.jpg 1080w"
-                                        alt="Sala w której prowadzimy wykłady z teorii. Inne ujęcie."
-                                        class="gallery-image-thumbnail" aria-hidden="true">
-                                    <script type="application/json" class="w-json" aria-hidden="true">{
-  "items": [
-    {
-      "_id": "652697164a5a38a579569188",
-      "origFileName": "gallery-classroom-2.jpg",
-      "fileName": "gallery-classroom-2.jpg",
-      "fileSize": 1077400,
-      "height": 1148,
-      "url": "assets/gallery-classroom-2.jpg",
-      "width": 2548,
-      "type": "image"
-    }
-  ],
-  "group": "main-gallery"
-}</script>
-                                </a></div>
+                            {% endfor %}
                             <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide
-                                2 of 4.</div>
+                                2 of {{ site.data.base64_identifiers_pool.identifiers | size }}.</div>
                         </div>
                         <div class="w-slider-nav w-round">
                             <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 4"
