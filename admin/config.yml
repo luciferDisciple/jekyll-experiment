@@ -14,6 +14,28 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: homepage
+    label: Strona Główna
+    files:
+      - name: gallery
+        label: Galeria Zdjęć
+        file: _data/photo_gallery.yml
+        fields:
+          - widget: list
+            name: photos
+            label: Zdjęcia
+            label_singular: Zdjęcie
+            fields:
+              - name: filename
+                label: Plik
+                widget: image
+                allow_multiple: false
+                media_library:
+                  config:
+                    multiple: true
+              - name: alt_text
+                label: Opis Zdjęcia
+                widget: string
   - name: pages
     label: Strony
     files:
