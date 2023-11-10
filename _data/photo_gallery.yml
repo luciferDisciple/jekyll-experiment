@@ -1,6 +1,10 @@
-photos:
-  - filename: /assets/uploads/tokio-drift-mitsubishi-lancer.jpg
+images:
+  - path: /assets/uploads/tokio-drift-mitsubishi-lancer.jpg
     alt_text: "Kadr z filmu Szybcy i Wściekli: Tokio Drift (2006). Samochód
       Mitsubishi Lancer Evo."
-  - filename: /assets/uploads/super-mario-bros-movie-2023.jpg
+  - path: /assets/uploads/super-mario-bros-movie-2023.jpg
     alt_text: Kadr z filmu Super Mario Bros Film (2023)
+  - path: /assets/uploads/bytom.jpg
+    alt_text: Bytom. Miasto w województwie Śląskim.
+  - path: /assets/uploads/shiba-inu.jpg
+    alt_text: Pies rasy Shiba Inu siedzący przy biurku.

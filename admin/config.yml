@@ -22,11 +22,11 @@ collections:
         file: _data/photo_gallery.yml
         fields:
           - widget: list
-            name: photos
+            name: images
             label: Zdjęcia
             label_singular: Zdjęcie
             fields:
-              - name: filename
+              - name: path
                 label: Plik
                 widget: image
                 allow_multiple: false

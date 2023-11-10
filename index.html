@@ -1,3 +1,6 @@
+---
+# This empty "front matter" is required to mark this file for processing by liquid templating engine.
+---
 <!DOCTYPE html>
 <html lang="pl" data-wf-domain="lidka-2.webflow.io" data-wf-page="6539625ab73e1c0799f1bf74"
     data-wf-site="650046d8ca983fcfebd2ecb5"
@@ -221,7 +224,7 @@
                         <h2 class="h2-small">O nas</h2>
                         <p id="w-node-_8d0e1094-79bc-9ae7-1741-609e9432141c-99f1bf74" class="my-paragraph">Szkolimy
                             kandydatów na kierowców ubiegających się o prawo jazdy kategorii B oraz osoby posiadające
-                            prawo jazdy, które nie czują się zbyt pewnie za kierownicą. &nbsp;Dlaczego warto zdać prawo
+                            prawo jazdy, które nie czują się zbyt pewnie za kierownicą. Dlaczego warto zdać prawo
                             jazdy w OSK Lidka?</p>
                         <ul role="list">
                             <li>Będziecie uczyć się w identycznych samochodach, jak te na egzaminie państwowym</li>
@@ -236,25 +239,25 @@
                         aria-label="carousel">
                         <div class="w-slider-mask" id="w-slider-mask-0">
                             {% assign identifiers_pool = site.data.base64_identifiers_pool.identifiers %}
-                            {% for image in site.data.photo_gallery.photos %}
-                            <div class="w-slide" aria-label="1 of {{ forloop.length }}" role="group"
+                            {% for image in site.data.photo_gallery.images %}
+                            <div class="w-slide" aria-label="{{ forloop.index }} of {{ forloop.length }}" role="group"
                                 style="transform: translateX(-542px); opacity: 1; transition: transform 500ms ease 0s;"
                                 aria-hidden="true"><a href="#" class="slider-lightbox-link w-inline-block w-lightbox"
                                     aria-label="open lightbox" aria-haspopup="dialog" tabindex="-1"
                                     aria-hidden="true"><img
                                         sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, 97vw"
                                         alt="{{ image.alt_text }}"
-                                        src="assets/uploads/{{ image.filename }}"
+                                        src="{{ image.path }}"
                                         loading="lazy" class="gallery-image-thumbnail" aria-hidden="true">
                                     <script type="application/json" class="w-json" aria-hidden="true">{
                                       "items": [
                                         {
                                           "_id": "{{ identifiers_pool[forloop.index0] }}",
-                                          "origFileName": "gallery-auto-transmission-car.jpg",
-                                          "fileName": "gallery-auto-transmission-car.jpg",
+                                          "origFileName": "{{ image.path | split: '/' | last }}",
+                                          "fileName": "{{ image.path | split: '/' | last }}",
                                           "fileSize": 1130359,
                                           "height": 923,
-                                          "url": "assets/gallery-auto-transmission-car.jpg",
+                                          "url": "{{ image.path }}",
                                           "width": 2050,
                                           "type": "image"
                                         }
@@ -263,22 +266,20 @@
                                     }</script>
                                 </a></div>
                             {% endfor %}
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide
-                                2 of {{ site.data.base64_identifiers_pool.identifiers | size }}.</div>
                         </div>
                         <div class="w-slider-nav w-round">
-                            <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 4"
-                                aria-pressed="false" role="button" tabindex="-1"
+                            {% for image in site.data.photo_gallery.images %}
+                            <div class="w-slider-dot" data-wf-ignore=""
+                                aria-label="Show slide {{ forloop.index }} of {{ forloop.length }}"
+                                {% if loop.index0 == 0 %}
+                                aria-pressed="true"
+                                {% else %}
+                                aria-pressed="false"
+                                {% endif %}
+                                role="button"
+                                tabindex="-1"
                                 style="margin-left: 3px; margin-right: 3px;"></div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 4"
-                                aria-pressed="true" role="button" tabindex="0"
-                                style="margin-left: 3px; margin-right: 3px;"></div>
-                            <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 3 of 4"
-                                aria-pressed="false" role="button" tabindex="-1"
-                                style="margin-left: 3px; margin-right: 3px;"></div>
-                            <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 4 of 4"
-                                aria-pressed="false" role="button" tabindex="-1"
-                                style="margin-left: 3px; margin-right: 3px;"></div>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
