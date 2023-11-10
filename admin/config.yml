@@ -49,6 +49,55 @@ collections:
                 picker_utc: true
                 date_format: "D MMMM YYYY [(]dddd[)]"
                 time_format: "HH:mm"
+      - name: pricing
+        label: Oferta i Ceny
+        file: _data/pricing.yml
+        fields:
+          - widget: string
+            name: extra_hour_price
+            label: Cena dodatkowej godziny
+          - widget: string
+            name: extra_hour_bulk_price
+            label: Cena promocyjnego pakietu godzin
+          - widget: string
+            name: physical_examination_price
+            label: Cena badania lekarskiego
+          - widget: string
+            name: car_rental_price
+            label: Cena Wypożyczenia Samochodu
+          - widget: string
+            name: regular_course_price
+            label: Cena Kursu Podstawowego
+          - widget: list
+            name: regular_course_features
+            label: Cechy Kursu Podstawowego
+            label_singular: Cecha
+            fields:
+              - widget: string
+                name: description
+                label: Opis
+          - widget: string
+            name: express_course_price
+            label: Cena Kursu Ekspresowego
+          - widget: list
+            name: express_course_features
+            label: Cechy Kursu Ekspresowego
+            label_singular: Cecha
+            fields:
+              - widget: string
+                name: description
+                label: Opis
+          - widget: string
+            name: automatic_transmission_price
+            label: "Cena Kursu \"Automat\""
+          - widget: list
+            name: "Cechy Kursu \"Automat\""
+            label: Cechy
+            label_singular: Cecha
+            fields:
+              - widget: string
+                name: description
+                label: Opis
       - name: gallery
         label: Galeria Zdjęć
         file: _data/photo_gallery.yml
