@@ -380,119 +380,53 @@
             <div class="container">
                 <h2 class="h2-normal">Cennik</h2>
                 <div class="w-layout-grid pricing-cards-big-wrapper">
+                    {% assign pricing = site.data.pricing %}
+                    {% assign regular_course = pricing.regular_course %}
                     <div id="w-node-_5fb413d3-b721-c677-4249-5d6460fc88e8-99f1bf74" class="pricing-card">
                         <div class="pricing-card-header">
                             <div class="item-label">KURS PODSTAWOWY</div>
-                            <div class="big-price">3,000 PLN</div>
+                            <div class="big-price">{{ regular_course.price }}</div>
                         </div>
                         <div class="pricing-card-features">
-                            <div class="feature-container">
-                                <div class="feature-text">30 godzin lekcyjnych teorii</div><img
+                            {% for feature in regular_course.features %}
+                            <div class="feature-container{% if forloop.last %} last{% endif %}">
+                                <div class="feature-text">{{ feature }}</div><img
                                     src="assets/Tilda_Icons_27bu_28-blue.svg"
                                     loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
                             </div>
-                            <div class="feature-container">
-                                <div class="feature-text">30 godzin zajęć praktycznych</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container">
-                                <div class="feature-text">Materiały szkoleniowe</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container">
-                                <div class="feature-text">Szkolenie z udzielania pierwszej pomocy</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container last">
-                                <div class="feature-text">Jeden egzamin wewnętrzny</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
+                            {% endfor %}
                         </div>
                     </div>
+                    {% assign automatic_transmission_course = pricing.automatic_transmission_course %}
                     <div id="w-node-_7ef225f9-e772-5381-0dff-f88054a69449-99f1bf74" class="pricing-card">
                         <div class="pricing-card-header">
                             <div class="item-label">KURS "AUTOMAT"</div>
-                            <div class="big-price">3,400 PLN</div>
+                            <div class="big-price">{{ automatic_transmission_course.price }}</div>
                         </div>
                         <div class="pricing-card-features">
-                            <div class="feature-container">
-                                <div class="feature-text">30 godzin lekcyjnych teorii</div><img
+                            {% for feature in automatic_transmission_course.features %}
+                            <div class="feature-container{% if forloop.last %} last{% endif %}">
+                                <div class="feature-text">{{ feature }}</div><img
                                     src="assets/Tilda_Icons_27bu_28-blue.svg"
                                     loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
                             </div>
-                            <div class="feature-container">
-                                <div class="feature-text">30 godzin zajęć praktycznych</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container">
-                                <div class="feature-text">Materiały szkoleniowe</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container">
-                                <div class="feature-text">Szkolenie z udzielania pierwszej pomocy</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container">
-                                <div class="feature-text">Jeden egzamin wewnętrzny</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container">
-                                <div class="feature-text">Zajęcia praktyczne w Toyota Yaris z&nbsp;automatyczną
-                                    skrrzynią biegów</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container last">
-                                <div class="feature-text">Podstawienie samochodu na egzamin praktyczny</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
+                            {% endfor %}
                         </div>
                     </div>
+                    {% assign express_course = pricing.express_course %}
                     <div id="w-node-_811f31a3-1ae9-b8f3-a4b7-431c7c44c85b-99f1bf74" class="pricing-card">
                         <div class="pricing-card-header">
                             <div class="item-label">KURS EKSPRESOWY</div>
-                            <div class="big-price">3,700 PLN</div>
+                            <div class="big-price">{{ express_course.price }}</div>
                         </div>
                         <div class="pricing-card-features">
-                            <div class="feature-container">
-                                <div class="feature-text">30 godzin lekcyjnych teorii</div><img
+                            {% for feature in express_course.features %}
+                            <div class="feature-container{% if forloop.last %} last{% endif %}">
+                                <div class="feature-text">{{ feature }}</div><img
                                     src="assets/Tilda_Icons_27bu_28-blue.svg"
                                     loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
                             </div>
-                            <div class="feature-container">
-                                <div class="feature-text">30 godzin zajęć praktycznych</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container">
-                                <div class="feature-text">Materiały szkoleniowe</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container">
-                                <div class="feature-text">Szkolenie z udzielania pierwszej pomocy</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container">
-                                <div class="feature-text">Jeden egzamin wewnętrzny</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
-                            <div class="feature-container last">
-                                <div class="feature-text">Zajęcia praktyczne każdego dnia</div><img
-                                    src="assets/Tilda_Icons_27bu_28-blue.svg"
-                                    loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
-                            </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
@@ -502,7 +436,7 @@
                             <div class="icon-background icon-driving-wheel"></div>
                             <div class="small-pricing-card-heading-wrapper">
                                 <div class="pricing-small-card-heading">Godzina jazdy</div>
-                                <div class="pricing-small-card-price">100 PLN</div>
+                                <div class="pricing-small-card-price">{{ pricing.extra_hour.price }}</div>
                             </div>
                         </div>
                         <p class="pricing-card-small-details">Dodatkowe 60 minut jazd doszkalających</p>
@@ -512,7 +446,7 @@
                             <div class="icon-background icon-delivery-package"></div>
                             <div class="small-pricing-card-heading-wrapper">
                                 <div class="pricing-small-card-heading">Pakiet 10h praktyki</div>
-                                <div class="pricing-small-card-price">950 PLN</div>
+                                <div class="pricing-small-card-price">{{ pricing.extra_hour_bulk.price }}</div>
                             </div>
                         </div>
                         <p class="pricing-card-small-details">Oszczędzaj kupując jazdy doszkalające w pakiecie</p>
@@ -522,7 +456,7 @@
                             <div class="icon-background icon-stethoscope"></div>
                             <div class="small-pricing-card-heading-wrapper">
                                 <div class="pricing-small-card-heading">Badanie lekarskie</div>
-                                <div class="pricing-small-card-price">200 PLN</div>
+                                <div class="pricing-small-card-price">{{ pricing.physical_examination.price }}</div>
                             </div>
                         </div>
                         <p class="pricing-card-small-details">Płatne w gabinecie lekarskim</p>
@@ -532,7 +466,7 @@
                             <div class="icon-background icon-car"></div>
                             <div class="small-pricing-card-heading-wrapper">
                                 <div class="pricing-small-card-heading">Wypożyczenie auta</div>
-                                <div class="pricing-small-card-price">300 PLN</div>
+                                <div class="pricing-small-card-price">{{ pricing.car_rental.price }}</div>
                             </div>
                         </div>
                         <p class="pricing-card-small-details">Podstawienie samochodu na egzamin praktyczny w WORD</p>

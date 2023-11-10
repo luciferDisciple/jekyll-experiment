@@ -1,7 +1,35 @@
-regular_course: 3000
-express_course: 3700
-automatic_transmission_course: 3400
-physical_examination: 200
-extra_hour: 100
-extra_hour_bulk: 950
-car_rental: 200
+regular_course:
+  price: "3,000 PLN"
+  features:
+    - "30 godzin lekcyjnych teorii"
+    - "30 godzin zajęć praktycznych"
+    - "Materiały szkoleniowe"
+    - "Szkolenie z udzielania pierwszej pomocy"
+    - "Jeden egzamin wewnętrzny"
+express_course:
+  price: "3,700 PLN"
+  features:
+    - "30 godzin lekcyjnych teorii"
+    - "30 godzin zajęć praktycznych"
+    - "Materiały szkoleniowe"
+    - "Szkolenie z udzielania pierwszej pomocy"
+    - "Jeden egzamin wewnętrzny"
+    - "Zajęcia praktyczne każdego dnia"
+automatic_transmission_course:
+  price: "3,400 PLN"
+  features:
+    - "30 godzin lekcyjnych teorii"
+    - "30 godzin zajęć praktycznych"
+    - "Materiały szkoleniowe"
+    - "Szkolenie z udzielania pierwszej pomocy"
+    - "Jeden egzamin wewnętrzny"
+    - "Zajęcia praktyczne w Toyota Yaris z automatyczną skrrzynią biegów"
+    - "Podstawienie samochodu na egzamin praktyczny"
+physical_examination:
+  price: "200 PLN"
+extra_hour:
+  price: "100 PLN"
+extra_hour_bulk:
+  price: "950 PLN"
+car_rental:
+  price: "200 PLN"
