@@ -381,48 +381,45 @@
                 <h2 class="h2-normal">Cennik</h2>
                 <div class="w-layout-grid pricing-cards-big-wrapper">
                     {% assign pricing = site.data.pricing %}
-                    {% assign regular_course = pricing.regular_course %}
                     <div id="w-node-_5fb413d3-b721-c677-4249-5d6460fc88e8-99f1bf74" class="pricing-card">
                         <div class="pricing-card-header">
                             <div class="item-label">KURS PODSTAWOWY</div>
-                            <div class="big-price">{{ regular_course.price }}</div>
+                            <div class="big-price">{{ pricing.regular_course_price }}</div>
                         </div>
                         <div class="pricing-card-features">
-                            {% for feature in regular_course.features %}
+                            {% for feature in pricing.regular_course_features %}
                             <div class="feature-container{% if forloop.last %} last{% endif %}">
-                                <div class="feature-text">{{ feature }}</div><img
+                                <div class="feature-text">{{ feature.description }}</div><img
                                     src="assets/Tilda_Icons_27bu_28-blue.svg"
                                     loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
                             </div>
                             {% endfor %}
                         </div>
                     </div>
-                    {% assign automatic_transmission_course = pricing.automatic_transmission_course %}
                     <div id="w-node-_7ef225f9-e772-5381-0dff-f88054a69449-99f1bf74" class="pricing-card">
                         <div class="pricing-card-header">
                             <div class="item-label">KURS "AUTOMAT"</div>
-                            <div class="big-price">{{ automatic_transmission_course.price }}</div>
+                            <div class="big-price">{{ pricing.automatic_transmission_price }}</div>
                         </div>
                         <div class="pricing-card-features">
-                            {% for feature in automatic_transmission_course.features %}
+                            {% for feature in pricing.automatic_transmission_features %}
                             <div class="feature-container{% if forloop.last %} last{% endif %}">
-                                <div class="feature-text">{{ feature }}</div><img
+                                <div class="feature-text">{{ feature.description }}</div><img
                                     src="assets/Tilda_Icons_27bu_28-blue.svg"
                                     loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
                             </div>
                             {% endfor %}
                         </div>
                     </div>
-                    {% assign express_course = pricing.express_course %}
                     <div id="w-node-_811f31a3-1ae9-b8f3-a4b7-431c7c44c85b-99f1bf74" class="pricing-card">
                         <div class="pricing-card-header">
                             <div class="item-label">KURS EKSPRESOWY</div>
-                            <div class="big-price">{{ express_course.price }}</div>
+                            <div class="big-price">{{ pricing.express_course_price }}</div>
                         </div>
                         <div class="pricing-card-features">
-                            {% for feature in express_course.features %}
+                            {% for feature in pricing.express_course_features %}
                             <div class="feature-container{% if forloop.last %} last{% endif %}">
-                                <div class="feature-text">{{ feature }}</div><img
+                                <div class="feature-text">{{ feature.description }}</div><img
                                     src="assets/Tilda_Icons_27bu_28-blue.svg"
                                     loading="lazy" alt="Ikona tzw. ptaszka" class="icon-checkmark">
                             </div>
@@ -436,7 +433,7 @@
                             <div class="icon-background icon-driving-wheel"></div>
                             <div class="small-pricing-card-heading-wrapper">
                                 <div class="pricing-small-card-heading">Godzina jazdy</div>
-                                <div class="pricing-small-card-price">{{ pricing.extra_hour.price }}</div>
+                                <div class="pricing-small-card-price">{{ pricing.extra_hour_price }}</div>
                             </div>
                         </div>
                         <p class="pricing-card-small-details">Dodatkowe 60 minut jazd doszkalających</p>
@@ -446,7 +443,7 @@
                             <div class="icon-background icon-delivery-package"></div>
                             <div class="small-pricing-card-heading-wrapper">
                                 <div class="pricing-small-card-heading">Pakiet 10h praktyki</div>
-                                <div class="pricing-small-card-price">{{ pricing.extra_hour_bulk.price }}</div>
+                                <div class="pricing-small-card-price">{{ pricing.extra_hour_bulk_price }}</div>
                             </div>
                         </div>
                         <p class="pricing-card-small-details">Oszczędzaj kupując jazdy doszkalające w pakiecie</p>
@@ -456,7 +453,7 @@
                             <div class="icon-background icon-stethoscope"></div>
                             <div class="small-pricing-card-heading-wrapper">
                                 <div class="pricing-small-card-heading">Badanie lekarskie</div>
-                                <div class="pricing-small-card-price">{{ pricing.physical_examination.price }}</div>
+                                <div class="pricing-small-card-price">{{ pricing.physical_examination_price }}</div>
                             </div>
                         </div>
                         <p class="pricing-card-small-details">Płatne w gabinecie lekarskim</p>
@@ -466,7 +463,7 @@
                             <div class="icon-background icon-car"></div>
                             <div class="small-pricing-card-heading-wrapper">
                                 <div class="pricing-small-card-heading">Wypożyczenie auta</div>
-                                <div class="pricing-small-card-price">{{ pricing.car_rental.price }}</div>
+                                <div class="pricing-small-card-price">{{ pricing.car_rental_price }}</div>
                             </div>
                         </div>
                         <p class="pricing-card-small-details">Podstawienie samochodu na egzamin praktyczny w WORD</p>
