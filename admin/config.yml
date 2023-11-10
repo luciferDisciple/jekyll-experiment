@@ -17,6 +17,27 @@ collections:
   - name: homepage
     label: Strona Główna
     files:
+      - name: course_calendar
+        label: Terminy
+        file: _data/course_calendar.yml
+        fields:
+          - widget: list
+            name: courses
+            label: Kursy
+            label_singular: Kurs
+            fields:
+              - name: name
+                label: Nazwa
+                widget: string
+              - name: introductory_class
+                label: Spotkanie organizacyjne
+                widget: datetime
+              - name: doctor_appointment
+                label: Badanie lekarskie
+                widget: datetime
+              - name: course_start
+                label: Rozpoczęcie szkolenia
+                widget: datetime
       - name: gallery
         label: Galeria Zdjęć
         file: _data/photo_gallery.yml
@@ -39,30 +60,6 @@ collections:
   - name: pages
     label: Strony
     files:
-      - name: course_calendar
-        label: Terminy
-        file: _data/course_calendar.yml
-        fields:
-          - widget: list
-            name: courses
-            label: Kursy
-            label_singular: Kurs
-            fields:
-              - name: name
-                label: Nazwa
-                widget: string
-              - name: introductory_class
-                label: Spotkanie organizacyjne
-                widget: datetime
-                time_format: false
-              - name: doctor_appointment
-                label: Badanie lekarskie
-                widget: datetime
-                time_format: false
-              - name: course_start
-                label: Rozpoczęcie szkolenia
-                widget: datetime
-                time_format: false
       - name: pricing
         label: Ceny
         file: _data/pricing.yml
