@@ -25,6 +25,8 @@ collections:
             name: courses
             label: Kursy
             label_singular: Kurs
+            editor:
+              preview: false
             fields:
               - name: name
                 label: Nazwa
