@@ -20,13 +20,13 @@ collections:
       - name: course_calendar
         label: Terminy
         file: _data/course_calendar.yml
+        editor:
+          preview: false
         fields:
           - widget: list
             name: courses
             label: Kursy
             label_singular: Kurs
-            editor:
-              preview: false
             fields:
               - name: name
                 label: Nazwa
@@ -52,6 +52,8 @@ collections:
       - name: pricing
         label: Oferta i Ceny
         file: _data/pricing.yml
+        editor:
+          preview: false
         fields:
           - widget: string
             name: extra_hour_price
@@ -101,6 +103,8 @@ collections:
       - name: gallery
         label: Galeria Zdjęć
         file: _data/photo_gallery.yml
+        editor:
+          preview: false
         fields:
           - widget: list
             name: images
