@@ -543,7 +543,9 @@
         <section id="terminy" class="section">
             <div class="container">
                 <h2 class="h2-normal">Terminy</h2>
-                <div class="course-list-item">
+                {% assign month_names = site.data.localization.pl_PL.month_names %}
+                {% for course in site.data.course_calendar.courses %}
+                <div class="course-list-item{% if forloop.last %} last{% endif %}">
                     <div class="calendar-icon-big-wrapper">
                         <div class="bullet-background"></div><img
                             src="assets/Tilda_Icons_1ed_calendar-blue.svg"
@@ -557,79 +559,31 @@
                                     loading="lazy" alt="Ikona kalendarza"
                                     class="course-list-item-bullet-image calendar-icon-inline-absolute-offset">
                             </div>
-                            <h3 class="course-list-item-heading-inline-text">Kurs Wrzesień 2023</h3>
+                            <h3 class="course-list-item-heading-inline-text">{{ course.name }}</h3>
                         </div>
                         <ul role="list" class="list">
+                            {% assign introductory_class_month_index = course.introductory_class | date: "%m" | minus: 1 %}
+                            {% assign google_calendar_start = course.introductory_class | date: "%Y%m%dT%H%M00" %}
                             <li>Spotkanie organizacyjne: <a
-                                    href="https://calendar.google.com/calendar/r/eventedit?text=Spotkanie+organizacyjne+OSK+Lidka&amp;dates=20230911T163000/20230911T173000&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy&amp;location=O%C5%9Brodek+Szkolenia+Kierowc%C3%B3w+%22LIDKA%22+Lidia+Giero%C5%84,+Krzy%C5%BCowa+33,+41-500+Chorz%C3%B3w"
-                                    target="_blank" class="date-link">11&nbsp;września&nbsp;16:30</a></li>
+                                    href="https://calendar.google.com/calendar/r/eventedit?text=Spotkanie+organizacyjne+OSK+Lidka&amp;dates={{ google_calendar_start }}/{{ google_calendar_start }}&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy&amp;location=O%C5%9Brodek+Szkolenia+Kierowc%C3%B3w+%22LIDKA%22+Lidia+Giero%C5%84,+Krzy%C5%BCowa+33,+41-500+Chorz%C3%B3w"
+                                    target="_blank" class="date-link"
+                                    >{{ course.introductory_class | date: "%e"}}&nbsp;{{ month_names[introductory_class_month_index]}}&nbsp;{{ course.introductory_class | date: "%H:%M" }}</a></li>
+                            {% assign doctor_appointment_month_index = course.doctor_appointment | date: "%m" | minus: 1 %}
+                            {% assign google_calendar_start = course.doctor_appointment | date: "%Y%m%dT%H%M00" %}
                             <li>Badania lekarskie: <a
-                                    href="https://calendar.google.com/calendar/r/eventedit?text=Badania+lekarskie+OSK+Lidka&amp;dates=20230911T170000/20230911T180000&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy"
-                                    class="date-link">11&nbsp;września&nbsp;17:00</a></li>
+                                    href="https://calendar.google.com/calendar/r/eventedit?text=Badania+lekarskie+OSK+Lidka&amp;dates={{ google_calendar_start }}/{{ google_calendar_start }}/Warsaw&amp;details=https://osk-lidka.pl/#terminy"
+                                    target="_blank" class="date-link"
+                                    >{{ course.doctor_appointment | date: "%e"}}&nbsp;{{ month_names[doctor_appointment_month_index]}}&nbsp;{{ course.doctor_appointment | date: "%H:%M" }}</a></li>
+                            {% assign course_start_month_index = course.course_start | date: "%m" | minus: 1 %}
+                            {% assign google_calendar_start = course.course_start | date: "%Y%m%dT%H%M00" %}
                             <li>Rozpoczęcie szkolenia:&nbsp;<a
-                                    href="https://calendar.google.com/calendar/r/eventedit?text=Rozpocz%C4%99cie+szkolenia+OSK+Lidka&amp;dates=20230919T180000/20230919T190000&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy&amp;location=O%C5%9Brodek+Szkolenia+Kierowc%C3%B3w+%22LIDKA%22+Lidia+Giero%C5%84,+Krzy%C5%BCowa+33,+41-500+Chorz%C3%B3w"
-                                    class="date-link">19&nbsp;września&nbsp;18:00</a></li>
+                                    href="https://calendar.google.com/calendar/r/eventedit?text=Rozpocz%C4%99cie+szkolenia+OSK+Lidka&amp;dates={{ google_calendar_start }}/{{ google_calendar_start }}&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy&amp;location=O%C5%9Brodek+Szkolenia+Kierowc%C3%B3w+%22LIDKA%22+Lidia+Giero%C5%84,+Krzy%C5%BCowa+33,+41-500+Chorz%C3%B3w"
+                                    target="_blank" class="date-link"
+                                    >{{ course.course_start | date: "%e"}}&nbsp;{{ month_names[course_start_month_index]}}&nbsp;{{ course.course_start | date: "%H:%M" }}</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="course-list-item">
-                    <div class="calendar-icon-big-wrapper">
-                        <div class="bullet-background"></div><img
-                            src="assets/Tilda_Icons_1ed_calendar-blue.svg"
-                            loading="lazy" alt="Ikona kalendarza" class="course-list-item-bullet-image">
-                    </div>
-                    <div class="course-list-item-content">
-                        <div class="course-list-item-heading">
-                            <div class="calendar-icon-inline-sm">
-                                <div class="bullet-background calendar-icon-inline-absolute-offset"></div><img
-                                    src="assets/Tilda_Icons_1ed_calendar-blue.svg"
-                                    loading="lazy" alt="Ikona kalendarza"
-                                    class="course-list-item-bullet-image calendar-icon-inline-absolute-offset">
-                            </div>
-                            <h3 class="course-list-item-heading-inline-text">Kurs Październik 2023</h3>
-                        </div>
-                        <ul role="list" class="list">
-                            <li>Spotkanie organizacyjne: <a
-                                    href="https://calendar.google.com/calendar/r/eventedit?text=Spotkanie+organizacyjne+OSK+Lidka&amp;dates=20231011T163000/20231011T173000&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy&amp;location=O%C5%9Brodek+Szkolenia+Kierowc%C3%B3w+%22LIDKA%22+Lidia+Giero%C5%84,+Krzy%C5%BCowa+33,+41-500+Chorz%C3%B3w"
-                                    class="date-link">11&nbsp;października&nbsp;16:30</a></li>
-                            <li>Badania lekarskie: <a
-                                    href="https://calendar.google.com/calendar/r/eventedit?text=Badania+lekarskie+OSK+Lidka&amp;dates=20231011T170000/20231011T180000&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy"
-                                    class="date-link">11&nbsp;października&nbsp;17:00</a></li>
-                            <li>Rozpoczęcie szkolenia:&nbsp;<a
-                                    href="https://calendar.google.com/calendar/r/eventedit?text=Rozpocz%C4%99cie+szkolenia+OSK+Lidka&amp;dates=20231017T180000/20231017T190000&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy&amp;location=O%C5%9Brodek+Szkolenia+Kierowc%C3%B3w+%22LIDKA%22+Lidia+Giero%C5%84,+Krzy%C5%BCowa+33,+41-500+Chorz%C3%B3w"
-                                    class="date-link">17&nbsp;października&nbsp;18:00</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="course-list-item last">
-                    <div class="calendar-icon-big-wrapper">
-                        <div class="bullet-background"></div><img
-                            src="assets/Tilda_Icons_1ed_calendar-blue.svg"
-                            loading="lazy" alt="Ikona kalendarza" class="course-list-item-bullet-image">
-                    </div>
-                    <div class="course-list-item-content">
-                        <div class="course-list-item-heading">
-                            <div class="calendar-icon-inline-sm">
-                                <div class="bullet-background calendar-icon-inline-absolute-offset"></div><img
-                                    src="assets/Tilda_Icons_1ed_calendar-blue.svg"
-                                    loading="lazy" alt="Ikona kalendarza"
-                                    class="course-list-item-bullet-image calendar-icon-inline-absolute-offset">
-                            </div>
-                            <h3 class="course-list-item-heading-inline-text">Kurs Listopad 2023</h3>
-                        </div>
-                        <ul role="list" class="list">
-                            <li>Spotkanie organizacyjne: <a
-                                    href="https://calendar.google.com/calendar/r/eventedit?text=Spotkanie+organizacyjne+OSK+Lidka&amp;dates=20231108T163000/20231108T173000&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy&amp;location=O%C5%9Brodek+Szkolenia+Kierowc%C3%B3w+%22LIDKA%22+Lidia+Giero%C5%84,+Krzy%C5%BCowa+33,+41-500+Chorz%C3%B3w"
-                                    class="date-link">8&nbsp;listopada&nbsp;16:30</a></li>
-                            <li>Badania lekarskie: <a
-                                    href="https://calendar.google.com/calendar/r/eventedit?text=Badania+lekarskie+OSK+Lidka&amp;dates=20231108T170000/20231108T180000&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy"
-                                    class="date-link">8&nbsp;listopada&nbsp;17:00</a></li>
-                            <li>Rozpoczęcie szkolenia: <a
-                                    href="https://calendar.google.com/calendar/r/eventedit?text=Rozpocz%C4%99cie+szkolenia+OSK+Lidka&amp;dates=20231114T180000/20231114T190000&amp;ctz=Poland/Warsaw&amp;details=https://osk-lidka.pl/#terminy&amp;location=O%C5%9Brodek+Szkolenia+Kierowc%C3%B3w+%22LIDKA%22+Lidia+Giero%C5%84,+Krzy%C5%BCowa+33,+41-500+Chorz%C3%B3w"
-                                    class="date-link">14&nbsp;listopada&nbsp;18:00</a></li>
-                        </ul>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </section>
         <section id="kontakt" class="section">
