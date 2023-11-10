@@ -32,12 +32,21 @@ collections:
               - name: introductory_class
                 label: Spotkanie organizacyjne
                 widget: datetime
+                picker_utc: true
+                date_format: "D MMMM YYYY [(]dddd[)]"
+                time_format: "HH:mm"
               - name: doctor_appointment
                 label: Badanie lekarskie
                 widget: datetime
+                picker_utc: true
+                date_format: "D MMMM YYYY [(]dddd[)]"
+                time_format: "HH:mm"
               - name: course_start
                 label: Rozpoczęcie szkolenia
                 widget: datetime
+                picker_utc: true
+                date_format: "D MMMM YYYY [(]dddd[)]"
+                time_format: "HH:mm"
       - name: gallery
         label: Galeria Zdjęć
         file: _data/photo_gallery.yml
