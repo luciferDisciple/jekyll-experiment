@@ -555,33 +555,34 @@
                             <h3 id="godziny" class="margin-top-0">Godziny Otwarcia</h3>
                             <table>
                                 <tbody class="tbody">
+                                    {% assign hours = site.data.office_hours %}
                                     <tr>
                                         <td class="week-day-cell">poniedziałek</td>
-                                        <td>15:00 – 17:00</td>
+                                        <td>{{ hours.monday | replace: "-", "&ndash;" }}</td>
                                     </tr>
                                     <tr>
                                         <td class="week-day-cell">wtorek</td>
-                                        <td>16:00 – 18:00</td>
+                                        <td>{{ hours.tuesday | replace: "-", "&ndash;" }}</td>
                                     </tr>
                                     <tr>
                                         <td class="week-day-cell">środa</td>
-                                        <td>16:00 – 18:00</td>
+                                        <td>{{ hours.wednesday | replace: "-", "&ndash;" }}</td>
                                     </tr>
                                     <tr>
                                         <td class="week-day-cell">czwartek</td>
-                                        <td>16:00 – 18:00</td>
+                                        <td>{{ hours.thursday | replace: "-", "&ndash;" }}</td>
                                     </tr>
                                     <tr>
                                         <td class="week-day-cell">piątek</td>
-                                        <td>nieczynne</td>
+                                        <td>{{ hours.friday | replace: "-", "&ndash;" }}</td>
                                     </tr>
                                     <tr>
                                         <td class="week-day-cell">sobota</td>
-                                        <td>nieczynne</td>
+                                        <td>{{ hours.saturday | replace: "-", "&ndash;" }}</td>
                                     </tr>
                                     <tr>
                                         <td class="week-day-cell">niedziela</td>
-                                        <td>nieczynne</td>
+                                        <td>{{ hours.sunday | replace: "-", "&ndash;" }}</td>
                                     </tr>
                                 </tbody>
                             </table>
