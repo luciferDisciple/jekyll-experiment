@@ -121,3 +121,30 @@ collections:
               - name: alt_text
                 label: Opis Zdjęcia
                 widget: string
+      - name: office-hours
+        label: Godziny Otwarca
+        file: _data/office_hours.yml
+        editor:
+          preview: false
+        fields:
+          - widget: string
+            name: monday
+            label: Poniedziałek
+          - widget: string
+            name: tuesday
+            label: Wtorek
+          - widget: string
+            name: wednesday
+            label: Środa
+          - widget: string
+            name: thursday
+            label: Czwartek
+          - widget: string
+            name: friday
+            label: Piątek
+          - widget: string
+            name: saturday
+            label: Sobota
+          - widget: string
+            name: sunday
+            label: Niedziela
