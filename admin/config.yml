@@ -123,7 +123,7 @@ collections:
                 widget: string
       - name: office-hours
         label: Godziny Otwarca
-        file: _data/office_hours.yml
+        file: _data/office_hours.json
         editor:
           preview: false
         fields:
