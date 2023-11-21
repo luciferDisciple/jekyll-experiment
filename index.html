@@ -597,61 +597,23 @@
             </div>
         </section>
         <section id="faq" class="section lg-pad-top-48 lg-pad-bottom-48">
-            <div class="container">
+            <div class="container faq-counter-reset">
                 <h2 class="h2-normal">FAQ - Często Zadawane Pytania</h2>
-                <div data-hover="false" data-delay="0" data-w-id="d83b3ac3-a532-b731-908a-e290400f9fed"
-                    class="accordion-item w-dropdown">
+                {% for question in site.data.frequently_asked_questions.questions %}
+                <div data-hover="false" data-delay="0" data-w-id="d38f9a2b-2560-0374-7f58-a0a4792acc97" class="accordion-item w-dropdown">
                     <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0"
                         aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button"
                         tabindex="0">
-                        <p class="question">1. Czy istnieje możliwość opłacenia kursu w ratach lub kartą kredytową?</p>
+                        <p class="question">{{ question.question }}</p>
                         <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
                             class="accordion-icon w-icon-dropdown-toggle" aria-hidden="true"></div>
                     </div>
                     <nav style="height: 0px;" class="dropdown-list w-dropdown-list" id="w-dropdown-list-0"
                         aria-labelledby="w-dropdown-toggle-0">
-                        <p>Oferujemy elastyczne plany finansowania kursów. Honorujemy również karty płatnicze i
-                            kredytowe. Więcej informacji dostępne pod telefonem lub po zapytaniu przez e-mail.</p>
+                        {{ question.answer_markdown | markdownify }}
                     </nav>
                 </div>
-                <div data-hover="false" data-delay="0" data-w-id="f45e82d8-c124-0078-360b-625989532579"
-                    class="accordion-item w-dropdown">
-                    <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-1"
-                        aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button"
-                        tabindex="0">
-                        <p class="question">2. Jestem w trakcie kursu. Czy istnieje jakiś limit czasowy?</p>
-                        <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-                            class="accordion-icon w-icon-dropdown-toggle" aria-hidden="true"></div>
-                    </div>
-                    <nav style="height: 0px;" class="dropdown-list w-dropdown-list" id="w-dropdown-list-1"
-                        aria-labelledby="w-dropdown-toggle-1">
-                        <p>Zazwyczaj umowa między ośrodkiem i kursantem obowiązuje 6 miesięcy. Jeżeli nie uda ci się
-                            ukończyć kursu w tym czasie, ośrodek może, pod pewnymi okolicznościami, przedłużyć umowę,
-                            żebyście mogli dokończyć kurs. Długość umowy znajduje się w tekście umowy, którą państwo
-                            podpisaliście.</p>
-                    </nav>
-                </div>
-                <div data-hover="false" data-delay="0" data-w-id="d38f9a2b-2560-0374-7f58-a0a4792acc97"
-                    class="accordion-item w-dropdown">
-                    <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-2"
-                        aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button"
-                        tabindex="0">
-                        <p class="question">3. Co jeżeli muszę odwołać lekcję?</p>
-                        <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-                            class="accordion-icon w-icon-dropdown-toggle" aria-hidden="true"></div>
-                    </div>
-                    <nav style="height: 0px;" class="dropdown-list w-dropdown-list" id="w-dropdown-list-2"
-                        aria-labelledby="w-dropdown-toggle-2">
-                        <p>Jeżeli nie odwołasz lekcji lub testu przynajmniej 24 godziny przed umówionym czasem, ośrodek
-                            zastrzega sobie prawo do nałożenia opłaty w wysokości 100 PLN. Lekcja może być też odwołana
-                            przez instruktora, jeżeli nie będzie w stanie przedstawić instruktorowi Profilu Kandydata na
-                            Kierowcę, jeżeli Profil stracił ważność, lub jeżeli nie będzie miał(a) przy sobie
-                            potrzebnych okularów korekcyjnych lub soczewek kontaktowych.<br></p>
-                        <p>Jeżeli po prostu się spóźnisz lub będziesz musiał(a)&nbsp;zakończyć lekcję przed czasem, nie
-                            pobierzemy tej opłaty, ale nie będziesz miał(a)&nbsp;możliwości nadrobienia tego czasu na
-                            następnej lekcji.</p>
-                    </nav>
-                </div>
+                {% endfor %}
             </div>
         </section>
         <footer class="section footer-section">

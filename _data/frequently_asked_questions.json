@@ -1,0 +1,20 @@
+{
+    "questions": [
+        {
+            "question": "Czy istnieje możliwość opłacenia kursu w ratach lub kartą kredytową?",
+            "answer_markdown": "Oferujemy elastyczne plany finansowania kursów. Honorujemy również karty płatnicze i kredytowe. Więcej informacji dostępne pod telefonem lub po zapytaniu przez e-mail."
+        },
+        {
+            "question": "Jestem w trakcie kursu. Czy istnieje jakiś limit czasowy?",
+            "answer_markdown": "Zazwyczaj umowa między ośrodkiem i kursantem obowiązuje 6 miesięcy. Jeżeli nie uda ci się ukończyć kursu w tym czasie, ośrodek może, pod pewnymi okolicznościami, przedłużyć umowę, żebyście mogli dokończyć kurs. Długość umowy znajduje się w tekście umowy, którą państwo podpisaliście."
+        },
+        {
+            "question": "Co jeżeli muszę odwołać lekcję?",
+            "answer_markdown": "Jeżeli nie odwołasz lekcji lub testu przynajmniej 24 godziny przed umówionym czasem, ośrodek zastrzega sobie prawo do nałożenia opłaty w wysokości 100 PLN. Lekcja może być też odwołana przez instruktora, jeżeli nie będzie w stanie przedstawić instruktorowi Profilu Kandydata na Kierowcę, jeżeli Profil stracił ważność, lub jeżeli nie będzie miał(a) przy sobie potrzebnych okularów korekcyjnych lub soczewek kontaktowych.\n\nJeżeli po prostu się spóźnisz lub będziesz musiał(a)&nbsp;zakończyć lekcję przed czasem, nie pobierzemy tej opłaty, ale nie będziesz miał(a)&nbsp;możliwości nadrobienia tego czasu na następnej lekcji."
+        },
+        {
+            "question": "Jaka jest treść ostatniego akapitu powieści \"Lalka\" autorstwa Bolesława Prusa?",
+            "answer_markdown": "Ostatni akapit powieści \"Lalka\" autorstwa Bolesława Prusa brzmi następująco:\n\n\"I w tej myśli, z daleka od wrzawy, z dala od miasta, z dala od życia, Stanisław Wokulski przysnął wiecznym snem, ukojony tym, że choć jeden raz, choć na moment, poznał, co znaczy szczęście ludzkie.\"\n\nJest to końcowe zdanie książki, które opisuje spokojny sen i zadowolenie z chwilowej radości głównego bohatera, Stanisława Wokulskiego, po wielu latach trudów i przeżyć. Wokulski był człowiekiem ambitnym, który przez wiele lat dążył do zdobycia bogactwa i uznania, ale w końcu zdał sobie sprawę, że prawdziwe szczęście tkwi w prostych, ludzkich relacjach i uczuciach. Zdając sobie sprawę z tego, Wokulski zasnął spokojnie, w pełni usatysfakcjonowany swoim życiem."
+        }
+    ]
+}
