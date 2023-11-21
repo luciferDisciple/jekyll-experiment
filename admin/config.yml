@@ -35,20 +35,20 @@ collections:
                 label: Spotkanie organizacyjne
                 widget: datetime
                 picker_utc: true
-                date_format: "D MMMM YYYY [(]dddd[)]"
-                time_format: "HH:mm"
+                date_format: "MMMM D, YYYY [(]dddd[)]"
+                time_format: "[at] HH:mm"
               - name: doctor_appointment
                 label: Badanie lekarskie
                 widget: datetime
                 picker_utc: true
-                date_format: "D MMMM YYYY [(]dddd[)]"
-                time_format: "HH:mm"
+                date_format: "MMMM D, YYYY [(]dddd[)]"
+                time_format: "[at] HH:mm"
               - name: course_start
                 label: Rozpoczęcie szkolenia
                 widget: datetime
                 picker_utc: true
-                date_format: "D MMMM YYYY [(]dddd[)]"
-                time_format: "HH:mm"
+                date_format: "MMMM D, YYYY [(]dddd[)]"
+                time_format: "[at] HH:mm"
       - name: pricing
         label: Oferta i Ceny
         file: _data/pricing.yml
