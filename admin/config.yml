@@ -121,6 +121,23 @@ collections:
               - name: alt_text
                 label: Opis Zdjęcia
                 widget: string
+      - name: faq
+        label: FAQ - Często Zadawane Pytania
+        file: _data/frequently_asked_questions.json
+        editor:
+          preview: false
+        fields:
+          - widget: list
+            name: questions
+            label: Pytania
+            label_singular: Pytanie
+            fields:
+              - name: question
+                widget: string
+                label: Pytanie
+              - name: answer_markdown
+                widget: markdown
+                label: Odpowiedź
       - name: office-hours
         label: Godziny Otwarcia
         file: _data/office_hours.json
