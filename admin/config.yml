@@ -56,7 +56,7 @@ collections:
           - name: cta_button_small_text
             widget: string
             label: Przycisk W Menu
-          - name: heading
+          - name: social_proof
             widget: string
             label: Link Do Opinii Kursantów
           - name: about_us_markdown
