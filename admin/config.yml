@@ -38,6 +38,30 @@ collections:
                 picker_utc: true
                 date_format: "MMMM D, YYYY [(]dddd[)]"
                 time_format: "[at] HH:mm"
+      - name: about-us
+        label: O Nas
+        file: _data/about_us.json
+        editor:
+          preview: false
+        fields:
+          - name: heading
+            widget: string
+            label: Nagłówek
+          - name: subheading
+            widget: string
+            label: Podtytuł
+          - name: cta_button_big_text
+            widget: string
+            label: Przycisk Koło Zdjęcia
+          - name: cta_button_small_text
+            widget: string
+            label: Przycisk W Menu
+          - name: heading
+            widget: string
+            label: Link Do Opinii Kursantów
+          - name: about_us_markdown
+            widget: markdown
+            label: O Nas
       - name: pricing
         label: Oferta i Ceny
         file: _data/pricing.yml
