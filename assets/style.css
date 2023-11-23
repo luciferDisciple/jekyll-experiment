@@ -3366,6 +3366,60 @@ li {
   font-style: normal;
 }
 
+#testimonials-carousel {
+    --carousel-gap: 16px;
+    width: calc(100% + 2 * var(--carousel-gap));
+    translate: calc(var(--carousel-gap) / -2);
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+#testimonials-carousel:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+#testimonials-carousel {
+  --arrow-width: 20px;
+  --arrow-height: 20px;
+  --arrow-bottom-margin: 8px;
+}
+
+#testimonials-carousel .slide {
+    height: 360px;
+    border: 1px solid #b6b6b6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 0 calc(var(--carousel-gap) / 2);
+}
+
+#testimonials-carousel .slick-prev {
+  position: relative;
+  left: calc(var(--carousel-gap) / 2);
+  margin-bottom: var(--arrow-bottom-margin);
+}
+
+#testimonials-carousel .slick-next {
+  position: absolute;
+  left: calc(var(--carousel-gap) / 2 + var(--arrow-width) + 8px);
+}
+
+#testimonials-carousel .slick-prev,
+#testimonials-carousel .slick-next {
+  top: calc(var(--arrow-height) / 2);
+}
+
+#testimonials-carousel .slick-prev::before,
+#testimonials-carousel .slick-next::before {
+  color: var(--brand);
+}
+
 @media screen and (max-width: 991px) {
   .section.hero-section.lg-min-height-90vh {
     min-height: auto;
