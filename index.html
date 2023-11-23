@@ -108,8 +108,8 @@
                     class="nav-link w-nav-link w--current">O Nas</a><a href="#ceny"
                     class="nav-link w-nav-link">Ceny</a><a href="#terminy" class="nav-link w-nav-link">Terminy</a><a
                     href="#kontakt" class="nav-link w-nav-link">Kontakt</a><a href="#faq"
-                    class="nav-link nav-link-faq w-nav-link">FAQ</a><a href="#kontakt"
-                    class="cta-button-nav w-button">Zapisz się</a></nav>
+                    class="nav-link nav-link-faq w-nav-link">FAQ</a>
+                <a href="#kontakt" class="cta-button-nav w-button">{{ site.data.about_us.cta_button_small_text }}</a></nav>
             <div class="menu-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button"
                 tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
                 <div class="w-icon-nav-menu"></div>
@@ -126,11 +126,9 @@
                         <div class="div-block-3">
                             <div class="w-layout-grid grid k">
                                 <div id="w-node-_59d37cea-80c0-354f-20c9-eea9cb94eed7-99f1bf74" class="hero-1-col">
-                                    <h1 id="w-node-_59d37cea-80c0-354f-20c9-eea9cb94eed8-99f1bf74" class="hero-heading">
-                                        Zdaj za pierwszym razem!</h1>
-                                    <h2 class="hero-subheading">Jedyna taka szkoła jazdy w Chorzowie.</h2>
-                                    <div class="cta-row-wrapper"><a href="#kontakt" class="button w-button">Zapisz się
-                                            dzisiaj!</a>
+                                    <h1 id="w-node-_59d37cea-80c0-354f-20c9-eea9cb94eed8-99f1bf74" class="hero-heading">{{ site.data.about_us.heading }}</h1>
+                                    <h2 class="hero-subheading">{{ site.data.about_us.subheading }}</h2>
+                                    <div class="cta-row-wrapper"><a href="#kontakt" class="button w-button">{{ site.data.about_us.cta_button_big_text }}</a>
                                         <div class="w-layout-vflex social-proof-link-wrapper">
                                             <div class="pfps-wrapper">
                                                 <div class="circle-pfp pfp-stack-top"><img
@@ -148,7 +146,7 @@
                                                 </div>
                                             </div>
                                             <p class="no-margin-text"><a href="#opinie"
-                                                    class="not-decorated-link">1,000+&nbsp;zadowolonych kursantów</a>
+                                                                         class="not-decorated-link">{{ site.data.about_us.social_proof }}</a>
                                             </p>
                                         </div>
                                     </div>
@@ -225,16 +223,7 @@
                 <div class="w-layout-grid about-us-top-row">
                     <div id="w-node-_2f1f92b7-81cf-0437-e618-78ddb5253455-99f1bf74">
                         <h2 class="h2-small">O nas</h2>
-                        <p id="w-node-_8d0e1094-79bc-9ae7-1741-609e9432141c-99f1bf74" class="my-paragraph">Szkolimy
-                            kandydatów na kierowców ubiegających się o prawo jazdy kategorii B oraz osoby posiadające
-                            prawo jazdy, które nie czują się zbyt pewnie za kierownicą. Dlaczego warto zdać prawo
-                            jazdy w OSK Lidka?</p>
-                        <ul role="list">
-                            <li>Będziecie uczyć się w identycznych samochodach, jak te na egzaminie państwowym</li>
-                            <li>Bezpieczeństwo waszych dzieci to nasz priorytet: zrobimy z nich ostrożnych ale pewnych
-                                siebie kierowców</li>
-                            <li class="list-last-child">Podjeżdżamy i odwozimy kursantów po zakończonych zajęciach</li>
-                        </ul>
+                        {{ site.data.about_us.about_us_markdown | markdownify }}
                     </div>
                     <div data-delay="4000" data-animation="slide" class="gallery-slider w-slider" data-autoplay="true"
                         data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0"
