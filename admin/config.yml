@@ -131,6 +131,7 @@ collections:
                 widget: image
                 label: Portret
                 hint: "Zdjęcie o proporcjach 1:1. Wystarczy 48x48 pikseli, ale może być większe. Twarz powinna być w centrum kadru."
+                media_folder: /assets/uploads/pfp
               - name: opinion
                 widget: markdown
                 label: Komentarz
