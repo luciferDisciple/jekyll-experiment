@@ -3,17 +3,6 @@ backend:
   branch: dev # Branch to update (optional; defaults to master)
 media_folder: assets/uploads
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
-    extension: markdown
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: homepage
     label: Strona Główna
     files:
@@ -121,6 +110,30 @@ collections:
               - name: alt_text
                 label: Opis Zdjęcia
                 widget: string
+      - name: testimonials
+        label: Opinie kursantów
+        file: _data/testimonials.json
+        editor:
+          preview: false
+        fields:
+          - widget: list
+            name: testimonials
+            label: Opinie
+            label_singular: Opinia
+            fields:
+              - name: clientName
+                widget: string
+                label: Imię
+              - name: product
+                widget: string
+                label: Wykupiona Usługa
+              - name: profilePicture
+                widget: image
+                label: Portret
+                hint: "Zdjęcie o proporcjach 1:1. Wystarczy 48x48 pikseli, ale może być większe. Twarz powinna być w centrum kadru."
+              - name: opinion
+                widget: markdown
+                label: Komentarz
       - name: faq
         label: FAQ - Często Zadawane Pytania
         file: _data/frequently_asked_questions.json
@@ -165,3 +178,14 @@ collections:
           - widget: string
             name: sunday
             label: Niedziela
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "_posts/blog" # The path to the folder where the documents are stored
+    extension: markdown
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
