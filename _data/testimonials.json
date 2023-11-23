@@ -1,0 +1,34 @@
+{
+    testimonials: [
+        {
+            "clientName": "Maria",
+            "opinion": "Przez cały kurs jeździłam z jednym instruktorem, co nie jest oczywiste w&nbsp;innych szkołach. Pani Lidia do ostatniej godziny jazd była mega zaangażowana. Chyba bez niej nie dałabym rady zdać za pierwszym razem.",
+            "product": "Kurs standardowy",
+            "profilePicture": "assets/testimonial-pfp-mary-elizabeth-winstead.jpg"
+        },
+        {
+            "clientName": "Waldek",
+            "opinion": "OSK Lidka poleciła mi żona, która parę miesięcy wcześniej wykupiła tu jazdy doszkalające i żałowała, że wcześniej nie zapisała się tutaj na kurs. Polecam. Jazda w Yarisce z automatem tak mi się spodobała, że sam teraz jeżdżę identyczną :D",
+            "product": "Kurs \"automat\"",
+            "profilePicture": "assets/testimonial-pfp-walter-sobchak-2-crop.jpg"
+        },
+        {
+            "clientName": "Ryszard",
+            "opinion": "Wypadki się zdarzają: napijesz się, naćpasz się, a wypadek i tak by się zdarzył. Pamiętam tylko jak na coś wpadłem i wóz się zapalił. Cieszę się, że mnie nie wyrzucili, bo inni ostro by się wkurzyli. Później się ogarnąłem i&nbsp;zdałem za 2 razem",
+            "product": "Kurs ekspresowy",
+            "profilePicture": "assets/testimonial-pfp-ricky-2-crop.jpg"
+        },
+        {
+            "clientName": "Robert",
+            "opinion": "To była krótka piłka: w kwietniu kurs, w maju prawko. Tak właśnie wszystkim polecam: zdać za pierwszym razem, a nie PRÓBOWAĆ zdać. No chyba, że jesteś ciamajda, a nie facet. Na prawdę, co w tym trudnego. Wietnam - to była prawdziwa szkoła życia. Ale zmieniam temat... Dziękuję za kurs. Nie mam zastrzeżeń.",
+            "product": "Kurs \"automat\"",
+            "profilePicture": "assets/testimonial-pfp-robert-downey-jr.jpg"
+        },
+        {
+            "clientName": "Natalia",
+            "opinion": "Amet voluptas iusto architecto iusto dicta Repudiandae minima in iure earum voluptate Ad ab vitae obcaecati distinctio earum doloremque fugiat obcaecati, suscipit repudiandae velit. Molestias dolorem itaque earum consequuntur ratione?",
+            "product": "Kurs standardowy",
+            "profilePicture": "assets/testimonial-pfp-mary-elizabeth-winstead.jpg"
+        }
+    ]
+}

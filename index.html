@@ -290,66 +290,20 @@
                 <style>
                 </style>
                 <div id="testimonials-carousel" style="margin-top: 16px;">
+                    {% for testimonial in site.data.testimonials.testimonials %}
                     <div>
                         <div class="slide">
                             <div class="testimonial">
-                                <p>Przez cały kurs jeździłam z jednym instruktorem, co nie jest oczywiste w&nbsp;innych szkołach. Pani Lidia do ostatniej godziny jazd była mega zaangażowana. Chyba bez niej nie dałabym rady zdać za pierwszym razem.”</p>
+                                {{ testimonial.opinion | markdownify }}
                             </div>
                             <div class="testimonial-card-footer">
-                                <img src="assets/testimonial-pfp-mary-elizabeth-winstead.jpg" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
-                                <div class="testimonial-footer-heading">Maria</div>
-                                <div>Kurs standardowy</div>
+                                <img src="{{ testimonial.profilePicture }}" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
+                                <div class="testimonial-footer-heading">{{ testimonial.clientName }}</div>
+                                <div>{{ testimonial.product }}</div>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="slide">
-                            <div class="testimonial">
-                                <p>OSK Lidka poleciła mi żona, która parę miesięcy wcześniej wykupiła tu jazdy doszkalające i żałowała, że wcześniej nie zapisała się tutaj na kurs. Polecam. Jazda w Yarisce z automatem tak mi się spodobała, że sam teraz jeżdżę identyczną :D</p>
-                            </div>
-                            <div class="testimonial-card-footer">
-                                <img src="assets/testimonial-pfp-walter-sobchak-2-crop.jpg" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
-                                <div class="testimonial-footer-heading">Waldek</div>
-                                <div>Kurs "automat"</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="slide">
-                            <div class="testimonial">
-                                <p>Wypadki się zdarzają: napijesz się, naćpasz się, a wypadek i tak by się zdarzył. Pamiętam tylko jak na coś wpadłem i wóz się zapalił. Cieszę się, że mnie nie wyrzucili, bo inni ostro by się wkurzyli. Później się ogarnąłem i&nbsp;zdałem za 2 razem</p>
-                            </div>
-                            <div class="testimonial-card-footer">
-                                <img src="assets/testimonial-pfp-ricky-2-crop.jpg" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
-                                <div class="testimonial-footer-heading">Ryszard</div>
-                                <div>Kurs ekspresowy</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="slide">
-                            <div class="testimonial">
-                                <p>To była krótka piłka:&nbsp;w kwietniu kurs, w maju prawko. Tak właśnie wszystkim polecam:&nbsp;zdać za pierwszym razem, a nie próbować zdać. No chyba, że jesteś ciamajda, a nie facet. Na prawdę, co w tym trudnego. Wietnam - to była prawdziwa szkoła życia. Ale zmieniam temat... Dziękuję za kurs. Nie mam zastrzeżeń.</p>
-                            </div>
-                            <div class="testimonial-card-footer">
-                                <img src="assets/testimonial-pfp-robert-downey-jr.jpg" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
-                                <div class="testimonial-footer-heading">Robert</div>
-                                <div>Kurs "automat"</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="slide">
-                            <div class="testimonial">
-                                <p>Amet voluptas iusto architecto iusto dicta Repudiandae minima in iure earum voluptate Ad ab vitae obcaecati distinctio earum doloremque fugiat obcaecati, suscipit repudiandae velit. Molestias dolorem itaque earum consequuntur ratione?</p>
-                            </div>
-                            <div class="testimonial-card-footer">
-                                <img src="assets/testimonial-pfp-mary-elizabeth-winstead.jpg" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
-                                <div class="testimonial-footer-heading">Karol</div>
-                                <div>Kurs standardowy</div>
-                            </div>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </section>
