@@ -3368,7 +3368,7 @@ li {
 
 #testimonials-carousel {
     --carousel-gap: 16px;
-    width: calc(100% + 2 * var(--carousel-gap));
+    width: calc(100% + var(--carousel-gap));
     translate: calc(var(--carousel-gap) / -2);
     cursor: move;
     cursor: grab;
