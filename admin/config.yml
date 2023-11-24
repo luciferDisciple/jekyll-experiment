@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: demo # Branch to update (optional; defaults to master)
+  branch: dev # Branch to update (optional; defaults to master)
 media_folder: assets/uploads
 collections:
   - name: homepage
