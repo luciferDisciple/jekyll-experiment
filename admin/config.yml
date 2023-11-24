@@ -38,6 +38,66 @@ collections:
                 picker_utc: true
                 date_format: "MMMM D, YYYY [(]dddd[)]"
                 time_format: "[at] HH:mm"
+<<<<<<< Updated upstream
+=======
+      - name: about-us
+        label: O Nas
+        file: _data/about_us.json
+        editor:
+          preview: false
+        fields:
+          - name: heading
+            widget: string
+            label: Nagłówek
+          - name: subheading
+            widget: string
+            label: Podtytuł
+          - name: cta_button_big_text
+            widget: string
+            label: Przycisk Koło Zdjęcia
+          - name: cta_button_small_text
+            widget: string
+            label: Przycisk W Menu
+          - name: social_proof
+            widget: string
+            label: Link Do Opinii Kursantów
+          - name: value_proposition_1_icon
+            widget: image
+            label: "Ikona 1. Korzyści"
+            media_folder: assets/icons
+          - name: value_proposition_1_head
+            widget: string
+            label: "Nagłówek 1. Korzyści"
+          - name: value_proposition_1_body
+            widget: string
+            label: "Opis 1. Korzyści"
+          - name: value_proposition_2_icon
+            widget: image
+            label: "Ikona 2. Korzyści"
+            media_folder: assets/icons
+          - name: value_proposition_2_head
+            widget: string
+            label: "Nagłówek 2. Korzyści"
+          - name: value_proposition_2_body
+            widget: string
+            label: "Opis 2. Korzyści"
+          - name: value_proposition_3_icon
+            widget: image
+            label: "Ikona 3. Korzyści"
+            media_folder: assets/icons
+          - name: value_proposition_3_head
+            widget: string
+            label: "Nagłówek 3. Korzyści"
+          - name: value_proposition_3_body
+            widget: string
+            label: "Opis 3. Korzyści"
+          - name: about_us_markdown
+            widget: markdown
+            label: O Nas
+          - name: site_description
+            wdiget: string
+            label: Krótki Opis Działalności
+>>>>>>> Stashed changes
       - name: pricing
         label: Oferta i Ceny
         file: _data/pricing.yml
