@@ -2554,25 +2554,25 @@ li {
 }
 
 .icon-background.icon-driving-wheel {
-  background-image: url("https://assets-global.website-files.com/650046d8ca983fcfebd2ecb5/652d4d826fa1374c5a371c2a_icon-driving-wheel-blue.svg");
+  background-image: url("/assets/static_images/icon-driving-wheel-blue.svg");
   background-position: 0 0;
   background-size: auto;
 }
 
 .icon-background.icon-delivery-package {
-  background-image: url("https://assets-global.website-files.com/650046d8ca983fcfebd2ecb5/652d50344508c74ce451c4f7_Tilda_Icons_47dlvr_box-blue.svg");
+  background-image: url("/assets/static_images/Tilda_Icons_47dlvr_box_blue.svg");
   background-position: 0 0;
   background-size: auto;
 }
 
 .icon-background.icon-stethoscope {
-  background-image: url("https://assets-global.website-files.com/650046d8ca983fcfebd2ecb5/652d51ae88786ffec139080d_Tilda_Icons_20med_consultation-blue.svg");
+  background-image: url("assets/static_images/Tilda_Icons_20med_consultation_blue.svg");
   background-position: 0 0;
   background-size: auto;
 }
 
 .icon-background.icon-car {
-  background-image: url("https://assets-global.website-files.com/650046d8ca983fcfebd2ecb5/652d52dd786ee9b4310d19b3_Tilda_Icons_44_travel_car-blue.svg");
+  background-image: url("assets/static_images/icon-car-side-view-blue.svg");
   background-position: 0 0;
   background-size: auto;
 }
