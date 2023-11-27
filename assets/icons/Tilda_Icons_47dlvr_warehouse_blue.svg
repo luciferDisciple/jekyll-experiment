@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 101 101"
+   version="1.1"
+   sodipodi:docname="Tilda_Icons_47dlvr_warehouse_blue.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="8.3069307"
+     inkscape:cx="50.439809"
+     inkscape:cy="50.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <path
+     d="M90.5,76H77V18.5a1.5,1.5,0,0,0-3,0V68H69V63.21A10.22,10.22,0,0,0,58.79,53h-.31L41.68,24.44a15.15,15.15,0,0,0-13-7.44H16.5A1.5,1.5,0,0,0,15,18.5V53H10.5A1.5,1.5,0,0,0,9,54.5v23A1.5,1.5,0,0,0,10.5,79h5.73a9,9,0,0,0,17.54,0H44.23a9,9,0,0,0,17.54,0H67.5A1.5,1.5,0,0,0,69,77.5V71h5v6.5A1.5,1.5,0,0,0,75.5,79h15a1.5,1.5,0,0,0,0-3ZM18,20H28.67A12.17,12.17,0,0,1,39.1,26L55,53H18Zm7,63a6,6,0,1,1,6-6A6,6,0,0,1,25,83Zm28,0a6,6,0,1,1,6-6A6,6,0,0,1,53,83Zm13-7H61.94a9,9,0,0,0-17.88,0H33.94a9,9,0,0,0-17.88,0H12V56H58.79A7.23,7.23,0,0,1,66,63.21Z"
+     id="path1"
+     style="fill:#0065f2;fill-opacity:1" />
+</svg>
