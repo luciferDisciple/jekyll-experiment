@@ -2566,13 +2566,13 @@ li {
 }
 
 .icon-background.icon-stethoscope {
-  background-image: url("assets/static_images/Tilda_Icons_20med_consultation_blue.svg");
+  background-image: url("/assets/static_images/Tilda_Icons_20med_consultation_blue.svg");
   background-position: 0 0;
   background-size: auto;
 }
 
 .icon-background.icon-car {
-  background-image: url("assets/static_images/icon-car-side-view-blue.svg");
+  background-image: url("/assets/static_images/icon-car-side-view-blue.svg");
   background-position: 0 0;
   background-size: auto;
 }
