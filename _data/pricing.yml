@@ -1,28 +1,29 @@
-regular_course_price: "3,000 PLN"
+extra_hour_price: 100 PLN
+extra_hour_bulk_price: 950 PLN
+physical_examination_price: 200 PLN
+car_rental_price: 200 PLN
+regular_course_price: 3,000 PLN
 regular_course_features:
-  - description: "30 godzin lekcyjnych teorii"
-  - description: "30 godzin zajęć praktycznych"
-  - description: "Materiały szkoleniowe"
-  - description: "Szkolenie z udzielania pierwszej pomocy"
-  - description: "Jeden egzamin wewnętrzny"
-express_course_price: "3,700 PLN"
+  - description: 30 godzin szkolenia teoretycznego ( 1 godz. = 45 min. )
+  - description: 30 godzin szkolenia praktycznego ( 1 godz. = 60 min. )
+  - description: "Materiały szkoleniowe "
+  - description: "Szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych "
+  - description: "Pierwszy egzamin wewnętrzny teoretyczny i praktyczny "
+express_course_price: 3,700 PLN
 express_course_features:
-  - description: "30 godzin lekcyjnych teorii"
-  - description: "30 godzin zajęć praktycznych"
-  - description: "Materiały szkoleniowe"
-  - description: "Szkolenie z udzielania pierwszej pomocy"
-  - description: "Jeden egzamin wewnętrzny"
-  - description: "Zajęcia praktyczne każdego dnia"
-automatic_transmission_price: "3,400 PLN"
+  - description: 30 godzin szkolenia teoretycznego ( 1 godz. = 45 min. )
+  - description: 30 godzin szkolenia praktycznego ( 1 godz. = 60 min. )
+  - description: Materiały szkoleniowe
+  - description: "Szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych "
+  - description: "Pierwszy egzamin wewnętrzny teoretyczny i praktyczny "
+  - description: Zajęcia praktyczne codziennie
+automatic_transmission_price: 3,400 PLN
 automatic_transmission_features:
-  - description: "30 godzin lekcyjnych teorii"
-  - description: "30 godzin zajęć praktycznych"
-  - description: "Materiały szkoleniowe"
-  - description: "Szkolenie z udzielania pierwszej pomocy"
-  - description: "Jeden egzamin wewnętrzny"
-  - description: "Zajęcia praktyczne w Toyota Yaris z automatyczną skrrzynią biegów"
-  - description: "Podstawienie samochodu na egzamin praktyczny"
-physical_examination_price: "200 PLN"
-extra_hour_price: "100 PLN"
-extra_hour_bulk_price: "950 PLN"
-car_rental_price: "200 PLN"
+  - description: 30 godzin szkolenia teoretycznego ( 1 godz. = 45 min. )
+  - description: 30 godzin szkolenia praktycznego ( 1 godz. = 60 min. )
+  - description: Materiały szkoleniowe
+  - description: Szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych
+  - description: Jeden egzamin wewnętrzny
+  - description: Zajęcia praktyczne samochodem Toyota Yaris HYBRID z automatyczną
+      skrzynią biegów
+  - description: Podstawienie samochodu na pierwszy egzamin praktyczny w WORD
