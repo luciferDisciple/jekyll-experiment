@@ -1,34 +1,40 @@
 {
-    "testimonials": [
-        {
-            "clientName": "Maria",
-            "opinion": "Przez cały kurs jeździłam z jednym instruktorem, co nie jest oczywiste w&nbsp;innych szkołach. Pani Lidia do ostatniej godziny jazd była mega zaangażowana. Chyba bez niej nie dałabym rady zdać za pierwszym razem.",
-            "product": "Kurs standardowy",
-            "profilePicture": "/assets/uploads/pfp/testimonial-pfp-mary-elizabeth-winstead.jpg"
-        },
-        {
-            "clientName": "Waldek",
-            "opinion": "OSK Lidka poleciła mi żona, która parę miesięcy wcześniej wykupiła tu jazdy doszkalające i żałowała, że wcześniej nie zapisała się tutaj na kurs. Polecam. Jazda w Yarisce z automatem tak mi się spodobała, że sam teraz jeżdżę identyczną :D",
-            "product": "Kurs \"automat\"",
-            "profilePicture": "/assets/uploads/pfp/testimonial-pfp-walter-sobchak-2-crop.jpg"
-        },
-        {
-            "clientName": "Ryszard",
-            "opinion": "Wypadki się zdarzają: napijesz się, naćpasz się, a wypadek i tak by się zdarzył. Pamiętam tylko jak na coś wpadłem i wóz się zapalił. Cieszę się, że mnie nie wyrzucili, bo inni ostro by się wkurzyli. Później się ogarnąłem i&nbsp;zdałem za 2 razem",
-            "product": "Kurs ekspresowy",
-            "profilePicture": "/assets/uploads/pfp/testimonial-pfp-ricky-2-crop.jpg"
-        },
-        {
-            "clientName": "Robert",
-            "opinion": "To była krótka piłka: w kwietniu kurs, w maju prawko. Tak właśnie wszystkim polecam: zdać za pierwszym razem, a nie PRÓBOWAĆ zdać. No chyba, że jesteś ciamajda, a nie facet. Na prawdę, co w tym trudnego. Wietnam - to była prawdziwa szkoła życia. Ale zmieniam temat... Dziękuję za kurs. Nie mam zastrzeżeń.",
-            "product": "Kurs \"automat\"",
-            "profilePicture": "/assets/uploads/pfp/testimonial-pfp-robert-downey-jr.jpg"
-        },
-        {
-            "clientName": "Natalia",
-            "opinion": "Amet voluptas iusto architecto iusto dicta Repudiandae minima in iure earum voluptate Ad ab vitae obcaecati distinctio earum doloremque fugiat obcaecati, suscipit repudiandae velit. Molestias dolorem itaque earum consequuntur ratione?",
-            "product": "Kurs standardowy",
-            "profilePicture": "/assets/uploads/pfp/testimonial-pfp-mary-elizabeth-winstead.jpg"
-        }
-    ]
+  "testimonials": [
+    {
+      "clientName": "Zuzia",
+      "opinion": " Jakość, Profesjonalizm.\n\nNauka jazdy na nowym samochodzie automatycznym zakończona sukcesem- egzamin praktyczny zdany za 1 razem.\\\nDzięki profesjonalnemu podejściu do zajęć teoretycznych jak i praktycznych - Pani Danusiu - dziękuje.\\\n\\\nSerdecznie polecam tę szkole jazdy!",
+      "product": "Kurs automat",
+      "profilePicture": "/assets/uploads/pfp/testimonial-pfp-mary-elizabeth-winstead.jpg"
+    },
+    {
+      "clientName": "Waldek",
+      "opinion": "OSK Lidka poleciła mi żona, która parę miesięcy wcześniej wykupiła tu jazdy doszkalające i żałowała, że wcześniej nie zapisała się tutaj na kurs. Polecam. Jazda w Yarisce z automatem tak mi się spodobała, że sam teraz jeżdżę identyczną :D",
+      "product": "Kurs \"automat\"",
+      "profilePicture": "/assets/uploads/pfp/testimonial-pfp-walter-sobchak-2-crop.jpg"
+    },
+    {
+      "clientName": "Dawid",
+      "opinion": "Super szkoła naprawdę, polecam mimo że szkoła znajduje się w Chorzowie a ja mieszkam w Rudzie i mam trochę do przejechania czasami, to uważam że szkoła jest naprawdę godna polecenia pani Lidka(Prowadząca teorie) to bardzo sympatyczna pełna radości i uśmiechu osoba, instruktorzy/ki też bardzo fajni ludzie spokojnie podchodzą do tematu nauki samochodem nie można im nic narzucić bardzo dokładnie planują trasy dużo uczą w między czasie, moim zdaniem uważam że szkoła powinna mieć 1-wsze miejsce w rankingu na dobrą szkołę jazdy, szkoła jest naprawdę godna polecenia ;)",
+      "product": "Kurs ekspresowy",
+      "profilePicture": "testimonial-pfp-ricky-2-crop.jpg"
+    },
+    {
+      "clientName": "Aleksander",
+      "opinion": "Najlepsza szkoła jazdy w okolicy Chorzowa. I nie pisze tego dlatego, że mam do ośrodka kilkanaście minut pieszo, albo dlatego, że zdałem za pierwszym razem. 😊\\\n- Lokalizacja dogodna, w centrum praktycznie w centrum Chorzowa;\\\n- Kontakt z pracownikami jest świetny, zawsze można się dodzwonić zarówno do P. Lidki jak i innych instruktorów;\\\n- Plac manewrowy na samochód jest w sam raz. Linie widocznie, wszystkie egzaminacyjne zadania można przećwiczyć;\\\n- Toyoty utrzymane w dobrym stanie nie odbiegają w żadnych stopniu od tych w WORDach;\\\n- godziny wykładów są uzgadniane z kursantami, aby każdy miał możliwość uczestniczenia;\\\n- Cena jak za jakość usługi wg mnie rozsądna. Możliwość płatności ratalnej;\\\n- Super instruktorzy pełni cierpliwości, poczucia humoru i po prostu profesjonalni w swoim fachu.\\\nPolecam! 😊",
+      "product": "Kurs podstawowy",
+      "profilePicture": "/assets/uploads/pfp/testimonial-pfp-robert-downey-jr.jpg"
+    },
+    {
+      "clientName": "Natalia ",
+      "opinion": "Bardzo polecam- przychylni ludzie, którzy bardzo dobrze uczą:) szczególnie polecam pana Jacka, który był moim instruktorem- świetne podejście i komfort nauki!",
+      "product": "Kurs standardowy",
+      "profilePicture": "/assets/uploads/pfp/testimonial-pfp-mary-elizabeth-winstead.jpg"
+    },
+    {
+      "clientName": "pp bb",
+      "product": "Kurs podstawowy",
+      "opinion": "Świetne indywidualne podejście Pana Leszka do zdającego. Miał cierpliwość żeby wszystko fajnie wytłumaczyć. Egzamin w Word zdałem za drugim razem.\\\nPolecam instruktora i szkołę oczywiście.",
+      "profilePicture": "/assets/uploads/pfp/testimonial-pfp-robert-downey-jr.jpg"
+    }
+  ]
 }
