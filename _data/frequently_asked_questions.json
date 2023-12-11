@@ -19,6 +19,10 @@
     {
       "question": "Jak uzyskać Profil Kandydata na Kierowcę ( PKK )?",
       "answer_markdown": "P﻿o Profil Kandydata na Kierowcę należy udać się z odpowiednimi dokumentami do Wydziału Komunikacji Urzędu Miasta, stosownie do miejsca zamieszkania:\n\n1. O﻿rzeczenie Lekarskie.\n2. D﻿owód Osobisty  lub inny dokument ( Paszport, Legitymacja Szkolna, Karta Pobytu ).\n3. F﻿otografia szt. 1\n4. O﻿soba niepełnoletnia z rodzicem lub opiekunem prawnym albo z wypełnionym przez te osoby formulażem Zgody na Szkolenie i wydanie Prawa Jazdy.\n5. W﻿ypełnionym Wnioskiem o Wydanie Prawa Jazdy ( dostępny w Referacie Komunikacji )."
+    },
+    {
+      "question": "Czy badania lekarskie są bezterminowe?",
+      "answer_markdown": "Orzeczenie lekarskie może być bezterminowe - decyduje lekarz przeprowadzający badanie, decyduje nienaganny stan zdrowia."
     }
   ]
 }
