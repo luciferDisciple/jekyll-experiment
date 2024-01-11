@@ -132,16 +132,28 @@
                                         <div class="w-layout-vflex social-proof-link-wrapper">
                                             <div class="pfps-wrapper">
                                                 <div class="circle-pfp pfp-stack-top"><img
+                                                        {% if site.data.testimonials.testimonials[0].profilePicture != "" 0%}
                                                         src="{{ site.data.testimonials.testimonials[0].profilePicture }}"
+                                                        {% else %}
+                                                        src="/assets/static_images/default_pfp.jpg"
+                                                        {% fi %}
                                                         loading="lazy" alt="Zdjęcie profilowe kursanta"></div>
                                                 <div class="circle-pfp pfp-stack-middle"><img
+                                                        {% if site.data.testimonials.testimonials[1].profilePicture != "" 0%}
                                                         src="{{ site.data.testimonials.testimonials[1].profilePicture }}"
+                                                        {% else %}
+                                                        src="/assets/static_images/default_pfp.jpg"
+                                                        {% fi %}
                                                         alt="Zdjęcie profilowe kursanta" class="image-4">
                                                     <div class="middle-pfp-overlay"></div>
                                                 </div>
                                                 <div class="circle-pfp pfp-stack-bottom">
                                                     <div class="bottom-pfp-overlay"></div><img
+                                                        {% if site.data.testimonials.testimonials[2].profilePicture != "" 0%}
                                                         src="{{ site.data.testimonials.testimonials[2].profilePicture }}"
+                                                        {% else %}
+                                                        src="/assets/static_images/default_pfp.jpg"
+                                                        {% fi %}
                                                         loading="lazy" alt="Zdjęcie profilowe kursanta">
                                                 </div>
                                             </div>
