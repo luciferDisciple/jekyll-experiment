@@ -1,8 +1,8 @@
-extra_hour_price: 100 PLN
-extra_hour_bulk_price: 950 PLN
-physical_examination_price: 200 PLN
-car_rental_price: 100 PLN za godzinę, nie mniej niż 200 pln
-regular_course_price: 3,000 PLN
+extra_hour_price: 100 zł
+extra_hour_bulk_price: 950 zł
+physical_examination_price: 200 zł
+car_rental_price: 100 zł za godzinę, nie mniej niż 200 zł
+regular_course_price: 3,000 zł
 regular_course_features:
   - description: 30 godzin szkolenia teoretycznego (1 godz. = 45 min.)
   - description: 30 godzin szkolenia praktycznego (1 godz. = 60 min.)
