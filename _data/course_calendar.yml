@@ -11,3 +11,19 @@ courses:
     doctor_appointment: 2024-03-06T17:00:32.170Z
     course_start: 2024-03-12T18:00:32.186Z
     name: Kurs marzec 2024
+  - introductory_class: 2024-04-10T16:30:37.533Z
+    doctor_appointment: 2024-04-10T17:00:37.568Z
+    course_start: 2024-04-16T18:00:37.587Z
+    name: Kurs kwiecień 2024
+  - introductory_class: 2024-05-08T16:30:47.285Z
+    doctor_appointment: 2024-05-08T17:00:47.310Z
+    course_start: 2024-05-14T18:00:47.326Z
+    name: Kurs maj 2024
+  - introductory_class: 2024-06-05T16:30:51.484Z
+    doctor_appointment: 2024-06-05T17:00:51.516Z
+    course_start: 2024-06-11T18:00:51.536Z
+    name: Kurs czerwiec 2024
+  - introductory_class: 2024-07-03T16:30:51.920Z
+    doctor_appointment: 2024-07-03T17:00:51.939Z
+    course_start: 2024-07-09T18:00:51.960Z
+    name: Kurs lipiec 2024
