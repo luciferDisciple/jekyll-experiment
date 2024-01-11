@@ -2358,9 +2358,14 @@ li {
 .circle-pfp {
   width: 48px;
   height: 48px;
-  background-color: #c9c9c9;
   border-radius: 100%;
   overflow: hidden;
+}
+
+.circle-pfp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .circle-pfp.pfp-stack-middle {
@@ -2431,33 +2436,9 @@ li {
 .circle-pfp-testimonial {
   width: 48px;
   height: 48px;
-  background-color: #c9c9c9;
   border-radius: 100%;
   margin-bottom: 8px;
-}
-
-.circle-pfp-testimonial.pfp-mary {
-  background-image: url("https://assets-global.website-files.com/650046d8ca983fcfebd2ecb5/6504870ff7b7a8daeed283d3_testimonial-pfp-1.jpg");
-  background-position: 50% 0;
-  background-size: 175% 175%;
-}
-
-.circle-pfp-testimonial.pfp-walter {
-  background-image: url("https://assets-global.website-files.com/650046d8ca983fcfebd2ecb5/65048a39d628864e8dd7c480_testimonial-pfp-walter-crop.jpg");
-  background-position: 0 0;
-  background-size: auto;
-}
-
-.circle-pfp-testimonial.pfp-ricky {
-  background-image: url("https://assets-global.website-files.com/650046d8ca983fcfebd2ecb5/65048b7a232b2a3cc7652ef0_testimonial-pfp-ricky-crop.jpg");
-  background-position: 0 0;
-  background-size: auto;
-}
-
-.circle-pfp-testimonial.pfp-robert {
-  background-image: url("https://assets-global.website-files.com/650046d8ca983fcfebd2ecb5/6525d4b357fdad78ddb68e8f_testimonial-pfp-robert-downey-jr.jpg");
-  background-position: 0 0;
-  background-size: auto;
+  object-fit: cover;
 }
 
 .pricing-cards-big-wrapper {
