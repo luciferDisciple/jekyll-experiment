@@ -282,7 +282,7 @@
                                 {{ testimonial.opinion | markdownify }}
                             </div>
                             <div class="testimonial-card-footer">
-                                <img src="{{ testimonial.profilePicture | default: "/assets/static_images/profile_pfp.jpg" }}" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
+                                <img src="{{ testimonial.profilePicture | default: "/assets/static_images/default_pfp.jpg" }}" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
                                 <div class="testimonial-footer-heading">{{ testimonial.clientName }}</div>
                                 <div>{{ testimonial.product }}</div>
                             </div>
