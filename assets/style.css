@@ -2200,7 +2200,7 @@ li {
 .section.footer-section {
   background-color: var(--brand);
   color: #fff;
-  background-image: url("https://assets-global.website-files.com/650046d8ca983fcfebd2ecb5/65086590d059c95213deb52d_footer-background.png");
+  background-image: url("/assets/static_images/footer-section-bg-2.jpg");
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: auto 100%;

@@ -132,16 +132,28 @@
                                         <div class="w-layout-vflex social-proof-link-wrapper">
                                             <div class="pfps-wrapper">
                                                 <div class="circle-pfp pfp-stack-top"><img
+                                                        {% if site.data.testimonials.testimonials[0].profilePicture != "" %}
                                                         src="{{ site.data.testimonials.testimonials[0].profilePicture }}"
+                                                        {% else %}
+                                                        src="/assets/static_images/default_pfp.jpg"
+                                                        {% endif %}
                                                         loading="lazy" alt="Zdjęcie profilowe kursanta"></div>
                                                 <div class="circle-pfp pfp-stack-middle"><img
+                                                        {% if site.data.testimonials.testimonials[0].profilePicture != "" %}
                                                         src="{{ site.data.testimonials.testimonials[1].profilePicture }}"
+                                                        {% else %}
+                                                        src="/assets/static_images/default_pfp.jpg"
+                                                        {% endif %}
                                                         alt="Zdjęcie profilowe kursanta" class="image-4">
                                                     <div class="middle-pfp-overlay"></div>
                                                 </div>
                                                 <div class="circle-pfp pfp-stack-bottom">
                                                     <div class="bottom-pfp-overlay"></div><img
+                                                        {% if site.data.testimonials.testimonials[0].profilePicture != "" %}
                                                         src="{{ site.data.testimonials.testimonials[2].profilePicture }}"
+                                                        {% else %}
+                                                        src="/assets/static_images/default_pfp.jpg"
+                                                        {% endif %}
                                                         loading="lazy" alt="Zdjęcie profilowe kursanta">
                                                 </div>
                                             </div>
@@ -282,7 +294,7 @@
                                 {{ testimonial.opinion | markdownify }}
                             </div>
                             <div class="testimonial-card-footer">
-                                <img src="{{ testimonial.profilePicture }}" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
+                                <img src="{% if testimonial.profilePicture == "" %}/assets/static_images/default_pfp.jpg{% else %}{{ testimonial.profilePicture }}{% endif %}" loading="lazy" alt="Zdjęcie autora opini na temat ośrodka" class="circle-pfp-testimonial">
                                 <div class="testimonial-footer-heading">{{ testimonial.clientName }}</div>
                                 <div>{{ testimonial.product }}</div>
                             </div>
