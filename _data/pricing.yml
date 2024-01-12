@@ -10,6 +10,7 @@ regular_course_features:
   - description: Szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych
       - prowadzone przez ratownika medycznego
   - description: "Pierwszy egzamin wewnętrzny teoretyczny i praktyczny "
+  - description: Możliwość wpłat w ratach
 express_course_price: 3,700 zł
 express_course_features:
   - description: 30 godzin szkolenia teoretycznego (1 godz. = 45 min.)
@@ -30,3 +31,4 @@ automatic_transmission_features:
   - description: Zajęcia praktyczne samochodem Toyota Yaris HYBRID z automatyczną
       skrzynią biegów
   - description: Podstawienie samochodu na pierwszy egzamin praktyczny w WORD
+  - description: Możliwość wpłat w ratach
