@@ -3,9 +3,9 @@ courses:
     doctor_appointment: 2024-01-10T16:30:38.366Z
     course_start: 2024-01-16T18:00:38.383Z
     name: Kurs styczeń 2024
-  - introductory_class: 2024-02-07T16:00:14.576Z
-    doctor_appointment: 2024-02-07T17:00:14.601Z
-    course_start: 2024-02-13T18:00:14.617Z
+  - introductory_class: 2024-02-07T15:30:00.000Z
+    doctor_appointment: 2024-02-07T16:00:00.000Z
+    course_start: 2024-02-13T17:00:00.000Z
     name: Kurs luty 2024
   - introductory_class: 2024-03-06T16:30:32.135Z
     doctor_appointment: 2024-03-06T17:00:32.170Z
