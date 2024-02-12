@@ -23,6 +23,10 @@
     {
       "question": "Czy badania lekarskie są bezterminowe?",
       "answer_markdown": "Orzeczenie lekarskie może być bezterminowe - decyduje o tym lekarz przeprowadzający badanie."
+    },
+    {
+      "question": "Jak wygląda system ratalny?",
+      "answer_markdown": "1 rata w dniu zapisu - 700 zł\n\n2 rata w dniu rozpoczęcia szkolenia teoretycznego - 700 zł\n\n3 rata do 10 godziny szkolenia praktycznego - 700 zł\n\n4 rata do 20 godziny szkolenia praktycznego -700 zł\n\n5 (ostatnia) rata do 30 godziny szkolenia praktycznego - 400 zł lub inna pozostała kwota."
     }
   ]
 }
