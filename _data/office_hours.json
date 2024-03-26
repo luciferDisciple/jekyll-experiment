@@ -1,9 +1,9 @@
 {
-	"monday": "15:00 - 17:00",
-	"tuesday": "16:00 - 18:00",
-	"wednesday": "16:00 - 18:00",
-	"thursday": "16:00 - 18:00",
-	"friday": "nieczynne",
-	"saturday": "nieczynne",
-	"sunday": "nieczynne"
+  "monday": "15:00 - 17:00",
+  "tuesday": "16:00 - 18:00",
+  "wednesday": "16:00 - 18:00",
+  "thursday": "10:00 - 12:00",
+  "friday": "nieczynne",
+  "saturday": "nieczynne",
+  "sunday": "nieczynne"
 }
