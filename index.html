@@ -458,22 +458,19 @@
                             <div class="business-card-text-line">ul. Krzyżowa 33</div>
                             <div class="business-card-text-line">41-500 Chorzów</div>
                         </address>
+                        {% for phone in site.data.contact.telephones %}
                         <div class="line-with-icon"><img
                                 src="/assets/static_images/Tilda_Icons_2web_phone_blue.svg"
                                 loading="lazy" alt="Ikona słuchawki telefonu" class="icon-phone">
-                            <div class="text-next-to-icon"><a href="tel:+48797534203">+48 797 534 203</a></div>
-                        </div>
-                        <div class="line-with-icon"><img
-                                src="/assets/static_images/Tilda_Icons_2web_phone_blue.svg"
-                                loading="lazy" alt="Ikona słuchawki telefonu" class="icon-phone">
-                            <div class="text-next-to-icon"><a href="tel:+48505051413">+48 505 051 413</a></div>
-                        </div>
-                        <div class="line-with-icon last"><img
-                                src="/assets/static_images/Tilda_Icons_35_Valentine_loveenvelope_blue.svg"
-                                loading="lazy" alt="Ikona koperty" class="icon-envelope">
-                            <div class="text-next-to-icon"><a href="mailto:biuro@osk-lidka.pl">biuro@osk-lidka.pl</a>
+                            <div class="text-next-to-icon">
+                                <a href="tel:{{ phone.number | replace: " ", "" }}">
+                                    {{ phone.number }}</a>
+                                {% if phone.label != "" %}
+                                    ({{ phone.label }})
+                                {% endif %}
                             </div>
                         </div>
+                        {% endfor %}
                     </div>
                     <div class="google-maps-widget">
                         <iframe width="100%" height="100%" style="border: none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.047079267315!2d18.94169277693517!3d50.30971349748672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716d261e30d814d%3A0x7b8ad7214cb50967!2sO%C5%9Brodek%20Szkolenia%20Kierowc%C3%B3w%20%22LIDKA%22%20Lidia%20Giero%C5%84!5e0!3m2!1spl!2spl!4v1686745437204!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
