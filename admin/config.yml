@@ -193,6 +193,23 @@ collections:
               - name: opinion
                 widget: markdown
                 label: Komentarz
+      - name: contact
+        label: Kontakt
+        file: _data/contact.json
+        editor:
+          preview: false
+        fields:
+          - widget: list
+            name: telephones
+            label: Telefony
+            label_singular: Telefon
+            fields:
+              - name: number
+                widget: string
+                label: Numer Telefonu
+              - name: label
+                widget: string
+                label: Opis (opcjonalny)
       - name: faq
         label: FAQ - Często Zadawane Pytania
         file: _data/frequently_asked_questions.json
