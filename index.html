@@ -458,16 +458,19 @@
                             <div class="business-card-text-line">ul. Krzyżowa 33</div>
                             <div class="business-card-text-line">41-500 Chorzów</div>
                         </address>
+                        {% for phone in site.data.contact.telephones %}
                         <div class="line-with-icon"><img
                                 src="/assets/static_images/Tilda_Icons_2web_phone_blue.svg"
                                 loading="lazy" alt="Ikona słuchawki telefonu" class="icon-phone">
-                            <div class="text-next-to-icon"><a href="tel:+48797534203">+48 797 534 203</a></div>
+                            <div class="text-next-to-icon">
+                                <a href="tel:{{ phone.number | replace: " ", "" }}">
+                                    {{ phone.number }}</a>
+                                {% if phone.label != "" %}
+                                    ({{ phone.label }})
+                                {% endif %}
+                            </div>
                         </div>
-                        <div class="line-with-icon"><img
-                                src="/assets/static_images/Tilda_Icons_2web_phone_blue.svg"
-                                loading="lazy" alt="Ikona słuchawki telefonu" class="icon-phone">
-                            <div class="text-next-to-icon"><a href="tel:+48505051413">+48 505 051 413</a></div>
-                        </div>
+                        {% endfor %}
                         <div class="line-with-icon last"><img
                                 src="/assets/static_images/Tilda_Icons_35_Valentine_loveenvelope_blue.svg"
                                 loading="lazy" alt="Ikona koperty" class="icon-envelope">
