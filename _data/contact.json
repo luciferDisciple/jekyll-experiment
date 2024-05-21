@@ -1,20 +1,16 @@
 {
   "telephones": [
     {
-      "number": "+48 100 200 300",
-      "label": "office"
+      "number": "+48 504 663 363",
+      "label": "biuro"
     },
     {
-      "number": "+48 699 101 101",
-      "label": "press"
+      "number": "+48 797 534 203",
+      "label": "kierownik"
     },
     {
-      "number": "+48 333 333 333",
-      "label": "human resources"
-    },
-    {
-      "number": "+37 888 888 888",
-      "label": ""
+      "number": "+48 505 051 413",
+      "label": "kierownik"
     }
   ]
 }
