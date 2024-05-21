@@ -1,16 +1,4 @@
 courses:
-  - introductory_class: 2024-03-06T16:30:32.135Z
-    doctor_appointment: 2024-03-06T17:00:32.170Z
-    course_start: 2024-03-12T18:00:32.186Z
-    name: Kurs marzec 2024
-  - introductory_class: 2024-04-10T16:30:37.533Z
-    doctor_appointment: 2024-04-10T17:00:37.568Z
-    course_start: 2024-04-16T18:00:37.587Z
-    name: Kurs kwiecień 2024
-  - introductory_class: 2024-05-08T16:30:47.285Z
-    doctor_appointment: 2024-05-08T17:00:47.310Z
-    course_start: 2024-05-14T18:00:47.326Z
-    name: Kurs maj 2024
   - introductory_class: 2024-06-05T16:30:51.484Z
     doctor_appointment: 2024-06-05T17:00:51.516Z
     course_start: 2024-06-11T18:00:51.536Z
@@ -19,3 +7,23 @@ courses:
     doctor_appointment: 2024-07-03T17:00:51.939Z
     course_start: 2024-07-09T18:00:51.960Z
     name: Kurs lipiec 2024
+  - course_start: August 20, 2024 (Tuesday)Tat 18:00
+    name: Kurs sierpień
+    introductory_class: August 7, 2024 (Wednesday)Tat 16:30
+    doctor_appointment: August 7, 2024 (Wednesday)Tat 17:00
+  - course_start: September 17, 2024 (Tuesday)Tat 18:00
+    name: Kurs wrzesień
+    doctor_appointment: September 11, 2024 (Wednesday)Tat 17:00
+    introductory_class: September 11, 2024 (Wednesday)Tat 16:30
+  - course_start: October 15, 2024 (Tuesday)Tat 18:00
+    name: Kurs październik
+    introductory_class: October 9, 2024 (Wednesday)Tat 16:30
+    doctor_appointment: October 9, 2024 (Wednesday)Tat 17:00
+  - course_start: November 12, 2024 (Tuesday)Tat 18:00
+    name: Kurs listopad
+    introductory_class: November 6, 2024 (Wednesday)Tat 16:30
+    doctor_appointment: November 6, 2024 (Wednesday)Tat 17:00
+  - course_start: December 10, 2024 (Tuesday)Tat 18:00
+    name: Kurs grudzień
+    introductory_class: December 4, 2024 (Wednesday)Tat 16:30
+    doctor_appointment: December 4, 2024 (Wednesday)Tat 17:00
