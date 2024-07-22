@@ -48,7 +48,17 @@ znaleźć pod adresem:
 
 Będąc już na stronie, kliknijcie przycisk "_Enable Identity_".
 
-### Krok 4: Utworzenie Konta Użytkownika w Netlify Identity
+### Krok 4: Włączenie Usługi Git Gateway
+
+Na stronie "Site Configuration" przejdźcie do sekcji "Identity | Services"
+i kilknijcie przycisk "Enable Git Gateway".
+
+Jeżeli Netlify przydzieliło wam subdomenę "_guileless-heliotrope-80ea93_"
+to możecie się tam udać bezpośrednio, przechodząc pod adres:
+
+<https://app.netlify.com/sites/guileless-heliotrope-80ea93/configuration/identity#services>
+
+### Krok 5: Utworzenie Konta Użytkownika w Netlify Identity
 
 Otwórzcie stronę pod adresem:
 
@@ -61,7 +71,7 @@ wysłany po wysłaniu formularza do rejestracji nowego konta.
 
 **Uwaga**: Średnik na końcu adresu jest konieczny!
 
-### Krok 5: Zarządzanie Kontami w Netlify Identity
+### Krok 6: Zarządzanie Kontami w Netlify Identity
 
 Żeby zobaczyć, edytować, lub usuwać konta użytkowników strony, musicie przejść
 pod specjalny adres:
