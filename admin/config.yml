@@ -38,6 +38,18 @@ collections:
                 picker_utc: true
                 date_format: "MMMM D, YYYY [(]dddd[)]"
                 time_format: "[at] HH:mm"
+      - name: banner
+        label: Baner Na Dole Ekranu
+        file: _data/banner.json
+        editor: {"preview": false}
+        fields:
+          - name: isShown
+            widget: boolean
+            label: Pokaż?
+            default: false
+          - name: textContent
+            widget: string
+            label: Treść Komunikatu
       - name: about-us
         label: O Nas
         file: _data/about_us.json
