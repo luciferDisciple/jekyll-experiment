@@ -43,7 +43,7 @@ collections:
         file: _data/banner.json
         editor: {"preview": false}
         fields:
-          - name: hide
+          - name: isShown
             widget: boolean
             label: Pokaż?
             default: false
