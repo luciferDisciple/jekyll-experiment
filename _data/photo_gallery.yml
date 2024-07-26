@@ -1,9 +1,10 @@
 images:
   - path: /assets/uploads/20230803_185636.jpg
     alt_text: Pojazdy osk.
-  - path: /assets/uploads/20230803_192052.jpg
-    alt_text: Pojazdy i część zespołu OSK LIDKA
   - path: /assets/uploads/20230606_160801.jpg
     alt_text: Biuro OSK "LIDKA"
   - path: /assets/uploads/gallery-classroom-1.jpg
     alt_text: Sala szkoleniowa OSK "LIDKA"
+  - path:
+      - /assets/uploads/20230803_185949.jpg
+    alt_text: SZEFOWA
