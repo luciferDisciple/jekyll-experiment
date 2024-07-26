@@ -1,12 +1,4 @@
 courses:
-  - introductory_class: 2024-06-05T16:30:51.484Z
-    doctor_appointment: 2024-06-05T17:00:51.516Z
-    course_start: 2024-06-11T18:00:51.536Z
-    name: Kurs czerwiec 2024
-  - introductory_class: 2024-07-03T16:30:51.920Z
-    doctor_appointment: 2024-07-03T17:00:51.939Z
-    course_start: 2024-07-09T18:00:51.960Z
-    name: Kurs lipiec 2024
   - course_start: August 20, 2024 (Tuesday)Tat 18:00
     name: Kurs sierpień 2024
     introductory_class: August 7, 2024 (Wednesday)Tat 16:30
