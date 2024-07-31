@@ -1,8 +1,8 @@
-extra_hour_price: 100 zł
-extra_hour_bulk_price: 950 zł
+extra_hour_price: 120 zł
+extra_hour_bulk_price: 1150 zł
 physical_examination_price: 200 zł
-car_rental_price: 100 zł/h (min. 2h)
-regular_course_price: 3,000 zł
+car_rental_price: 120 zł/h (min. 2h)
+regular_course_price: 3,400 zł
 regular_course_features:
   - description: 30 godzin szkolenia teoretycznego (1 godz. = 45 min.)
   - description: 30 godzin szkolenia praktycznego (1 godz. = 60 min.)
@@ -11,7 +11,7 @@ regular_course_features:
       - prowadzone przez ratownika medycznego
   - description: "Pierwszy egzamin wewnętrzny teoretyczny i praktyczny "
   - description: Możliwość wpłat w ratach
-express_course_price: 3,700 zł
+express_course_price: 4000 zł
 express_course_features:
   - description: 30 godzin szkolenia teoretycznego (1 godz. = 45 min.)
   - description: 30 godzin szkolenia praktycznego (1 godz. = 60 min.)
@@ -20,7 +20,7 @@ express_course_features:
       - prowadzone przez ratownika medycznego
   - description: "Pierwszy egzamin wewnętrzny teoretyczny i praktyczny "
   - description: Zajęcia praktyczne codziennie
-automatic_transmission_price: 3,400 zł
+automatic_transmission_price: 3800 zł
 automatic_transmission_features:
   - description: 30 godzin szkolenia teoretycznego ( 1 godz. = 45 min. )
   - description: 30 godzin szkolenia praktycznego ( 1 godz. = 60 min. )
