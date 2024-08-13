@@ -175,7 +175,7 @@ collections:
                 allow_multiple: false
                 media_library:
                   config:
-                    multiple: true
+                    multiple: false
               - name: alt_text
                 label: Opis Zdjęcia
                 widget: string
