@@ -5,6 +5,5 @@ images:
     alt_text: Biuro OSK LIDKA
   - path: /assets/uploads/gallery-classroom-1.jpg
     alt_text: Sala szkoleniowa OSK LIDKA
-  - path:
-      - /assets/uploads/20230803_185949.jpg
+  - path: /assets/uploads/20230803_185949.jpg
     alt_text: SZEFOWA
