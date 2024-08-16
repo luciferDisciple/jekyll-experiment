@@ -4,8 +4,8 @@ physical_examination_price: 200 zł
 car_rental_price: 120 zł/h (min. 2h)
 regular_course_price: 3,400 zł
 regular_course_features:
-  - description: 30 godzin szkolenia teoretycznego (1 godz. = 45 min.)
-  - description: 30 godzin szkolenia praktycznego (1 godz. = 60 min.)
+  - description: 30 godzin szkolenia teoretycznego (1 godz. = 45 min.)
+  - description: 30 godzin szkolenia praktycznego (1 godz. = 60 min.)
   - description: "Materiały szkoleniowe "
   - description: Szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych
       - prowadzone przez ratownika medycznego
@@ -13,8 +13,8 @@ regular_course_features:
   - description: Możliwość wpłat w ratach
 express_course_price: 4000 zł
 express_course_features:
-  - description: 30 godzin szkolenia teoretycznego (1 godz. = 45 min.)
-  - description: 30 godzin szkolenia praktycznego (1 godz. = 60 min.)
+  - description: 30 godzin szkolenia teoretycznego (1 godz. = 45 min.)
+  - description: 30 godzin szkolenia praktycznego (1 godz. = 60 min.)
   - description: Materiały szkoleniowe
   - description: Szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych
       - prowadzone przez ratownika medycznego
@@ -22,8 +22,8 @@ express_course_features:
   - description: Zajęcia praktyczne codziennie
 automatic_transmission_price: 3800 zł
 automatic_transmission_features:
-  - description: 30 godzin szkolenia teoretycznego ( 1 godz. = 45 min. )
-  - description: 30 godzin szkolenia praktycznego ( 1 godz. = 60 min. )
+  - description: 30 godzin szkolenia teoretycznego (1 godz. = 45 min.)
+  - description: 30 godzin szkolenia praktycznego (1 godz. = 60 min.)
   - description: Materiały szkoleniowe
   - description: Szkolenie z udzielania pierwszej pomocy ofiarom wypadków drogowych
       prowadzone przez ratownika medycznego
