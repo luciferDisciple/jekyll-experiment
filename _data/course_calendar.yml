@@ -1,9 +1,21 @@
 courses:
-  - course_start: November 12, 2024 (Tuesday)Tat 18:00
-    name: Kurs listopad 2024 Liczba miejsc na kursie ograniczona - wolne miejsca
-    introductory_class: November 6, 2024 (Wednesday)Tat 17:30
-    doctor_appointment: November 6, 2024 (Wednesday)Tat 18:00
   - course_start: December 10, 2024 (Tuesday)Tat 18:00
-    name: Kurs grudzień 2024  Liczba miejsc na kursie ograniczona - wolne miejsca
+    name: "Kurs grudzień 2024  "
     introductory_class: December 4, 2024 (Wednesday)Tat 16:30
     doctor_appointment: December 4, 2024 (Wednesday)Tat 17:00
+  - name: Kurs styczeń 2025
+    introductory_class: January 8, 2025 (Wednesday)Tat 16:30
+    doctor_appointment: January 8, 2025 (Wednesday)Tat 17:00
+    course_start: January 14, 2025 (Tuesday)Tat 18:00
+  - name: Kurs luty 2025
+    introductory_class: February 5, 2025 (Wednesday)Tat 16:30
+    doctor_appointment: February 5, 2025 (Wednesday)Tat 17:00
+    course_start: February 11, 2025 (Tuesday)Tat 18:00
+  - name: Kurs marzec 2025
+    introductory_class: March 5, 2025 (Wednesday)Tat 16:30
+    doctor_appointment: March 5, 2025 (Wednesday)Tat 17:00
+    course_start: March 11, 2025 (Tuesday)Tat 18:00
+  - name: Kurs kwiecień 2025
+    introductory_class: April 2, 2025 (Wednesday)Tat 16:30
+    doctor_appointment: April 2, 2025 (Wednesday)Tat 17:00
+    course_start: April 7, 2025 (Monday)Tat 18:00
