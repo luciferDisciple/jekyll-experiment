@@ -1,12 +1,4 @@
 courses:
-  - name: Kurs luty 2025
-    introductory_class: February 5, 2025 (Wednesday)Tat 16:30
-    doctor_appointment: February 5, 2025 (Wednesday)Tat 17:00
-    course_start: February 10, 2025 (Monday)Tat 18:00
-  - name: Kurs marzec 2025
-    introductory_class: March 5, 2025 (Wednesday)Tat 16:30
-    doctor_appointment: March 5, 2025 (Wednesday)Tat 17:00
-    course_start: March 11, 2025 (Tuesday)Tat 18:00
   - name: Kurs kwiecień 2025
     introductory_class: April 2, 2025 (Wednesday)Tat 16:30
     doctor_appointment: April 2, 2025 (Wednesday)Tat 17:00
@@ -19,3 +11,7 @@ courses:
     introductory_class: June 4, 2025 (Wednesday)Tat 16:30
     doctor_appointment: June 4, 2025 (Wednesday)Tat 17:00
     course_start: June 9, 2025 (Monday)Tat 18:00
+  - name: Kurs lipiec 2025
+    introductory_class: July 9, 2025 (Wednesday)Tat 16:30
+    doctor_appointment: July 9, 2025 (Wednesday)Tat 17:00
+    course_start: July 15, 2025 (Tuesday)Tat 18:00
