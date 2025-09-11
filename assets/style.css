@@ -2749,7 +2749,7 @@ li {
     -webkit-transition: all ease 0.5s;
     transition:all ease 0.5s;
     border-radius:1000px;
-    background: var(--brand-light);
+    background: var(--brand);
     font-weight:bold;
     text-decoration:none;
     color:#fff;
