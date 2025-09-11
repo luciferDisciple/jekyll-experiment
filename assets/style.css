@@ -2720,7 +2720,7 @@ li {
 }
 
 .popup-box {
-  width:400px;
+  width: 600px;
   padding:70px;
   transform:translate(-50%, -50%) scale(0.5);
   position:absolute;
@@ -2738,6 +2738,7 @@ li {
   }
   
   .close-btn {
+    text-align: center;
     width:35px;
     height:35px;
     display:inline-block;
