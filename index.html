@@ -99,11 +99,10 @@
     </script>
     <script>
     $(document).ready(function() {
-      $('.popup-btn').click(function(e) {
+      setTimeout(function() {
         $('.popup-wrap').fadeIn(500);
         $('.popup-box').removeClass('transform-out').addClass('transform-in');
-        e.preventDefault();
-      });
+      }, 5000);
       $('.popup-close').click(function(e) {
         $('.popup-wrap').fadeOut(500);
         $('.popup-box').removeClass('transform-in').addClass('transform-out');
