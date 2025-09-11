@@ -97,12 +97,13 @@
         });
       }
     </script>
+    {% if site.data.welcome_popup.is_shown %}
     <script>
     $(document).ready(function() {
       setTimeout(function() {
         $('.popup-wrap').fadeIn(500);
         $('.popup-box').removeClass('transform-out').addClass('transform-in');
-      }, 5000);
+      }, {{ site.data.welcome_popup.delay_miliseconds }});
       $('.popup-close').click(function(e) {
         $('.popup-wrap').fadeOut(500);
         $('.popup-box').removeClass('transform-in').addClass('transform-out');
@@ -110,17 +111,21 @@
       });
     });
     </script>
+    {% endif %}
 </head>
 
 <body>
 
+    {% if site.data.welcome_popup.is_shown %}
     <div class="popup-wrap">
         <div class="popup-box">
-          <h2>Title of Popup</h2>
-          <h3>A sub-heading for the popup with a little description.</h3>
+          <h2>{{ site.data.welcome_popup.heading }}</h2>
+          <p>{{  site.data.welcome_popup.body_text }}</p>
           <a class="close-btn popup-close" href="#">x</a>
         </div>
-      </div>
+     </div>
+    {% endif %}
+
 
     <div data-animation="default" data-collapse="tiny" data-duration="400" data-easing="ease" data-easing2="ease"
         role="banner" class="navbar w-nav">
