@@ -2730,13 +2730,14 @@ li {
   border-radius:3px;
   background:#fff;
   text-align:center;
+  color: black;
   
   h2 {
     color:#1a1a1a;
   }
   
-  h3 {
-    color:#888;
+  p {
+    margin-top: 20px;
   }
   
   .close-btn {
