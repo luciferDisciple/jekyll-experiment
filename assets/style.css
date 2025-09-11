@@ -2731,7 +2731,7 @@ li {
   background:#fff;
   color: black;
   
-  .popup-title h2 {
+  h2.popup-title {
     margin-bottom: 30px;
     text-align:center;
     color:#1a1a1a;
