@@ -2729,15 +2729,12 @@ li {
   box-shadow:0px 2px 16px rgba(0,0,0,0.5);
   border-radius:3px;
   background:#fff;
-  text-align:center;
   color: black;
   
-  h2 {
+  .popup-title h2 {
+    margin-bottom: 30px;
+    text-align:center;
     color:#1a1a1a;
-  }
-  
-  p {
-    margin-top: 20px;
   }
   
   .close-btn {

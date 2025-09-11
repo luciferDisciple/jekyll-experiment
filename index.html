@@ -119,8 +119,8 @@
     {% if site.data.welcome_popup.is_shown %}
     <div class="popup-wrap">
         <div class="popup-box">
-          <h2>{{ site.data.welcome_popup.heading }}</h2>
-          <p>{{  site.data.welcome_popup.body_text }}</p>
+          <h2 class="popup-title">{{ site.data.welcome_popup.heading }}</h2>
+          {{  site.data.welcome_popup.body_text_markdown | markdownify }}
           <a class="close-btn popup-close" href="#">x</a>
         </div>
      </div>
