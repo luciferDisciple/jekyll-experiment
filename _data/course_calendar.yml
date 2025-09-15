@@ -3,10 +3,11 @@ courses:
     introductory_class: September 10, 2025 (Wednesday)Tat 16:30
     doctor_appointment: September 10, 2025 (Wednesday)Tat 17:00
     course_start: September 16, 2025 (Tuesday)Tat 18:00
-  - name: "Kurs październik 2025\t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t
-      \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t
-      \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t
-      RAZEM  PRZEPRACOWANO GODZIN :\t                     rźd"
+  - name: "Kurs październik 2025\t"
     introductory_class: October 8, 2025 (Wednesday)Tat 16:30
     doctor_appointment: October 8, 2025 (Wednesday)Tat 17:00
     course_start: October 14, 2025 (Tuesday)Tat 18:00
+  - name: Kurs listopad 2025
+    introductory_class: November 5, 2025 (Wednesday)Tat 16:30
+    doctor_appointment: November 5, 2025 (Wednesday)Tat 17:00
+    course_start: November 12, 2025 (Wednesday)Tat 18:00
