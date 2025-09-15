@@ -1,13 +1,12 @@
 courses:
-  - name: Kurs lipiec 2025
-    introductory_class: July 9, 2025 (Wednesday)Tat 16:30
-    doctor_appointment: July 9, 2025 (Wednesday)Tat 17:00
-    course_start: July 15, 2025 (Tuesday)Tat 18:00
-  - name: Kurs sierpień 2025
-    introductory_class: August 18, 2025 (Monday)Tat 16:30
-    doctor_appointment: August 18, 2025 (Monday)Tat 17:00
-    course_start: August 19, 2025 (Tuesday)Tat 18:00
   - name: Kurs wrzesień 2025
     introductory_class: September 10, 2025 (Wednesday)Tat 16:30
     doctor_appointment: September 10, 2025 (Wednesday)Tat 17:00
     course_start: September 16, 2025 (Tuesday)Tat 18:00
+  - name: "Kurs październik 2025\t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t
+      \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t
+      \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t \t\t\t\t\t\t
+      RAZEM  PRZEPRACOWANO GODZIN :\t                     rźd"
+    introductory_class: October 8, 2025 (Wednesday)Tat 16:30
+    doctor_appointment: October 8, 2025 (Wednesday)Tat 17:00
+    course_start: October 14, 2025 (Tuesday)Tat 18:00
