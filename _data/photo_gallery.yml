@@ -1,9 +1,15 @@
 images:
   - path: /assets/uploads/20230803_185636.jpg
     alt_text: Pojazdy naszego ośrodka
-  - path: /assets/uploads/20230606_160801.jpg
-    alt_text: Biuro OSK LIDKA
-  - path: /assets/uploads/gallery-classroom-1.jpg
-    alt_text: Sala szkoleniowa OSK LIDKA
+  - path: /assets/uploads/img-20251119-wa0008.jpg
+    alt_text: "Nasze pojazdy: Skoda Fabia i Toyota Yaris"
   - path: /assets/uploads/20230803_185949.jpg
     alt_text: SZEFOWA
+  - path: /assets/uploads/img-20251119-wa0006.jpg
+    alt_text: "Nasze pojazdy: Skoda Fabia i Toyota Yaris"
+  - path: /assets/uploads/gallery-classroom-1.jpg
+    alt_text: Sala szkoleniowa OSK LIDKA
+  - path: /assets/uploads/img-20251119-wa0005.jpg
+    alt_text: Nasza nowa Skoda Fabia
+  - path: /assets/uploads/20230606_160801.jpg
+    alt_text: Biuro OSK LIDKA
