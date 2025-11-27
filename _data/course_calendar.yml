@@ -1,13 +1,9 @@
 courses:
-  - name: "Kurs październik 2025\t"
-    introductory_class: October 8, 2025 (Wednesday)Tat 15:30
-    doctor_appointment: October 8, 2025 (Wednesday)Tat 16:00
-    course_start: October 14, 2025 (Tuesday)Tat 18:00
-  - name: Kurs listopad 2025
-    introductory_class: November 5, 2025 (Wednesday)Tat 16:30
-    doctor_appointment: November 5, 2025 (Wednesday)Tat 17:00
-    course_start: November 12, 2025 (Wednesday)Tat 18:00
   - name: Kurs grudzień 2025
     introductory_class: December 3, 2025 (Wednesday)Tat 16:30
     doctor_appointment: December 3, 2025 (Wednesday)Tat 17:00
     course_start: December 8, 2025 (Monday)Tat 18:00
+  - name: Kurs styczeń 2026
+    introductory_class: January 7, 2026 (Wednesday)Tat 16:30
+    doctor_appointment: January 7, 2026 (Wednesday)Tat 17:00
+    course_start: January 13, 2026 (Tuesday)Tat 18:00
