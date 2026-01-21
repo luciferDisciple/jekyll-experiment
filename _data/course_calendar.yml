@@ -1,8 +1,4 @@
 courses:
-  - name: Kurs styczeń 2026
-    introductory_class: January 13, 2026 (Tuesday)Tat 16:30
-    doctor_appointment: January 7, 2026 (Wednesday)Tat 17:00
-    course_start: January 13, 2026 (Tuesday)Tat 18:00
   - name: Kurs luty 2026
     introductory_class: February 4, 2026 (Wednesday)Tat 16:30
     doctor_appointment: February 4, 2026 (Wednesday)Tat 17:00
@@ -15,3 +11,7 @@ courses:
     introductory_class: April 8, 2026 (Wednesday)Tat 16:30
     doctor_appointment: April 8, 2026 (Wednesday)Tat 17:00
     course_start: April 14, 2026 (Tuesday)Tat 18:00
+  - name: Kurs maj 2026
+    introductory_class: May 6, 2026 (Wednesday)Tat 16:30
+    doctor_appointment: May 6, 2026 (Wednesday)Tat 17:00
+    course_start: May 12, 2026 (Tuesday)Tat 18:00
