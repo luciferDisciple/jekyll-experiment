@@ -35,3 +35,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'google-protobuf', '~> 3.24.0'
 gem 'json'
 gem 'csv'
+gem 'base64'
