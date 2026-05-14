@@ -1,12 +1,4 @@
 courses:
-  - name: Kurs kwiecień 2026
-    introductory_class: April 8, 2026 (Wednesday)Tat 16:30
-    doctor_appointment: April 8, 2026 (Wednesday)Tat 17:00
-    course_start: April 14, 2026 (Tuesday)Tat 18:00
-  - name: Kurs maj 2026
-    introductory_class: May 6, 2026 (Wednesday)Tat 16:30
-    doctor_appointment: May 6, 2026 (Wednesday)Tat 17:00
-    course_start: May 11, 2026 (Monday)Tat 17:00
   - name: Kurs czerwiec 2026
     introductory_class: June 10, 2026 (Wednesday)Tat 16:30
     doctor_appointment: June 10, 2026 (Wednesday)Tat 17:00
