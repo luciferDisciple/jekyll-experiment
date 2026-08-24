@@ -1,5 +1,5 @@
 courses:
-  - name: Kurs wrzesień
+  - name: Kurs wrzesień 2026
     introductory_class: September 9, 2026 (Wednesday)Tat 16:30
     doctor_appointment: September 9, 2026 (Wednesday)Tat 17:00
     course_start: September 14, 2026 (Monday)Tat 17:00
@@ -7,11 +7,11 @@ courses:
     introductory_class: October 7, 2026 (Wednesday)Tat 16:30
     doctor_appointment: October 7, 2026 (Wednesday)Tat 17:00
     course_start: October 12, 2026 (Monday)Tat 17:00
-  - name: Kurs listopad
+  - name: Kurs listopad 2026
     introductory_class: November 4, 2026 (Wednesday)Tat 16:30
     doctor_appointment: November 4, 2026 (Wednesday)Tat 17:00
     course_start: November 9, 2026 (Monday)Tat 17:00
-  - name: Kurs grudzień
+  - name: Kurs grudzień 2026
     introductory_class: December 2, 2026 (Wednesday)Tat 16:30
     doctor_appointment: December 2, 2026 (Wednesday)Tat 17:00
     course_start: December 7, 2026 (Monday)Tat 17:00
