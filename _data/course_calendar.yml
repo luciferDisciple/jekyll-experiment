@@ -1,17 +1,5 @@
 courses:
-  - name: Kurs czerwiec 2026
-    introductory_class: June 10, 2026 (Wednesday)Tat 16:30
-    doctor_appointment: June 10, 2026 (Wednesday)Tat 17:00
-    course_start: June 15, 2026 (Monday)Tat 17:00
-  - name: Kurs lipiec 2026
-    introductory_class: July 1, 2026 (Wednesday)Tat 16:30
-    doctor_appointment: July 1, 2026 (Wednesday)Tat 17:00
-    course_start: July 6, 2026 (Monday)Tat 17:00
-  - name: Kurs sierpień 2026
-    introductory_class: August 5, 2026 (Wednesday)Tat 16:30
-    doctor_appointment: August 5, 2026 (Wednesday)Tat 17:00
-    course_start: August 10, 2026 (Monday)Tat 17:00
-  - name: Kurs wrzesień 2026
+  - name: Kurs wrzesień
     introductory_class: September 9, 2026 (Wednesday)Tat 16:30
     doctor_appointment: September 9, 2026 (Wednesday)Tat 17:00
     course_start: September 14, 2026 (Monday)Tat 17:00
@@ -19,3 +7,7 @@ courses:
     introductory_class: October 7, 2026 (Wednesday)Tat 16:30
     doctor_appointment: October 7, 2026 (Wednesday)Tat 17:00
     course_start: October 12, 2026 (Monday)Tat 17:00
+  - name: Kurs listopad
+    introductory_class: November 4, 2026 (Wednesday)Tat 16:30
+    doctor_appointment: November 4, 2026 (Wednesday)Tat 17:00
+    course_start: November 9, 2026 (Monday)Tat 17:00
